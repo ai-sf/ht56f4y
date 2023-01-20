@@ -7,6 +7,15 @@ $.fn.maxWidth = function () {
 
 };
 
+function toast(text) {
+  $(".toast").html(text);
+  $(".toast").css("bottom", "1rem");
+  setTimeout(function () {
+    var height = $(".toast").outerHeight(true);
+    $(".toast").css("bottom", -height);
+  }, 5000);
+}
+
 $.fn.popupCard = function (reveal) {
   let objects = $(this)
   $(this).on("click", function () {
@@ -175,6 +184,23 @@ $(document).ready(function () {
 
     }
   });
+
+
+  $("form").on("submit", function(e){
+    e.preventDefault();
+    data = $(this).serialize();
+    console.log(data);
+    $.get({
+      url: $(this).attr("action"),
+      data: data,
+      complete: function (data) {
+        toast("Thanks. Please check out your email to ensure that the form response is correctly stored.")
+      }
+
+    });
+    });
+
+
 
 
   $(".nav-trigger").on("click", function () {

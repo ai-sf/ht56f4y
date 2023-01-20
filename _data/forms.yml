@@ -10,12 +10,12 @@ registration:
       required: true
     - id: email
       label: Email
-      type: text
+      type: email
       name: entry.2035072992
       required: true
     - id: date
       label: "Preliminaries date"
-      type: text
+      type: date
       name: entry.400057823
       required: true
     - id: teams
