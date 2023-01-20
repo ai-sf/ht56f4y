@@ -24,8 +24,9 @@
   - text: Observers
     url: "/observers"
     icon: "border_color"
-  - text: "Confirmation"
-    icon: "border_color"
+#  - text: "Confirmation"
+#    url: "/confirmation"
+#    icon: "border_color"
 - nav-zone:
   - text: FAQ
     url: "/faq"

@@ -963,7 +963,7 @@ nav.sidenav{
 
 /* lock speakers */
 #speakers {
-  .col {
+  .locked {
      .card-header {
       filter: blur(6px);
       &:hover { filter: blur(4px);}
