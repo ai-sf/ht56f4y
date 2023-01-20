@@ -11,13 +11,13 @@ title: Speakers
 <div id="speakers" class="row">
   {% for real_speaker in site.data.speakers.speakers %}
   {% if real_speaker.locked %}
-    <!--{% capture speaker %}{{site.data.speakers.locked}}{% endcapture %}-->
     {% assign speaker = site.data.speakers.locked %}
+    {% assign class = "col l5 m5 s15 locked" %}
   {% else %}
-    <!--{% capture speaker %}{{real_speaker}}{% endcapture %}-->
     {% assign speaker = real_speaker %}
+    {% assign class = "col l5 m5 s15" %}
   {% endif %}
-  <div class="col l5 m5 s15">
+  <div class="{{class}}">
     <div class="card ripple horizontal circle-image primary expandable">
     <div class="card-header">
       <div class="card-image">
