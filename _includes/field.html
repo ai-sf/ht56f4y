@@ -8,7 +8,7 @@
   {% else %}
       <input type="{{include.data.type}}" id="{{include.data.id}}" placeholder=" " name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
   {% endif %}
-  <label class="form-field-label" for="{{include.data.id}}">{{include.data.label}}</label>
+  <label class="form-field-label" for="{{include.data.id}}">{{include.data.label}}{% if include.data.required %} *{%endif%}</label>
   {% if include.data.info %}
   <p class="field-info">{{include.data.info}}</p>
   {% endif %}

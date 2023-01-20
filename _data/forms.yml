@@ -38,6 +38,13 @@ registration:
         type: textarea
         name: entry.603835159
         required: false
+    - row:
+      - id: gdpr
+        size: s15 m12
+        label: "I hereby consent to the processing of the personal data I provided in this form, in agreement with the data protection regulations in the <a href='http://ai-sf.it/Informativa_Privacy_AISF.pdf'>data privacy statement</a> within the means of General Data Protection Regulation (GDPR) of European Union and art. 13 D.Lgs. 196/2003 (compulsory)*"
+        type: checkbox
+        name: entry.1690712167
+        value: I agree
 
 confirmation:
     id: confirmation
@@ -91,11 +98,17 @@ observers:
           name: entry.857060685
           required: true
       - row:
+        - id: email
+          name: entry.1922868373
+          size: s15 m10
+          type: email
+          label: "Email"
+          required: true
         - id: visa
-          size: s12 m4
+          size: s12 m5
           label: "Need to request visa?"
           type: checkbox
-          value: true
+          value: "Yes"
           name: entry.1263609753
           required: false
       - row:
@@ -127,9 +140,9 @@ observers:
       - row:
         - id: presentation
           label: "Want to give a presentation?"
-          size: s15 m5
+          size: s15 m5 top-align
           type: checkbox
-          value: true
+          value: "Yes"
           name: entry.1524629493
           required: false
         - size: s15 m7
@@ -150,10 +163,10 @@ observers:
         - id: poster
           label: "Want to present a poster?"
           type: checkbox
-          value: true
+          value: "Yes"
           name: entry.1232237956
           required: false
-          size: s15 m5
+          size: s15 m5 top-align
         - group:
           size: s15 m7
           fields:
@@ -176,6 +189,13 @@ observers:
           type: textarea
           name: entry.1725573787
           required: false
+      - row:
+        - id: gdpr
+          size: s15 m12
+          label: "I hereby consent to the processing of the personal data I provided in this form, in agreement with the data protection regulations in the <a href='http://ai-sf.it/Informativa_Privacy_AISF.pdf'>data privacy statement</a> within the means of General Data Protection Regulation (GDPR) of European Union and art. 13 D.Lgs. 196/2003 (compulsory)*"
+          type: checkbox
+          name: entry.835956734
+          value: I agree
 
 partecipants:
   - id: partecipants

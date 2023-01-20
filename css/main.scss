@@ -936,7 +936,9 @@ nav.sidenav{
   padding: 1rem 1rem;
 }
 
-&.form-submit .btn{
+&.form-submit{
+
+  .btn{
   background-color: blue;
   background-color: $primary;
   color: $on-primary;
@@ -949,6 +951,7 @@ nav.sidenav{
   @extend .z-depth-2;
   border-radius: 1.5rem;
   font-size: 1rem;
+}
 }
 }
 

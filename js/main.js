@@ -197,6 +197,10 @@ $(document).ready(function () {
         return;
       }
     }
+    if (!$("#gdpr", this).is(":checked")) {
+      toast("Please agree with data processing agreement");
+      return;
+    }
     $.get({
       url: $(this).attr("action"),
       data: data,

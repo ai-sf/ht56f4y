@@ -2,7 +2,7 @@
   {% for row in include.form.fields %}
 <div class="row fields-row">
   {% for field in row.row %}
-   <div class="col top-align {{field.size}}">
+   <div class="col  {{field.size}}">
     {% if field.fields %}
       {% for subfield in field.fields %}
         {% include field.html data=subfield %}
@@ -16,8 +16,11 @@
 </div>
 
   {% endfor %}
-  <div class="form-field form-submit">
-    <input type="submit" class="btn ripple" value="{{include.form.submit}}"/>
-  </div>
+
+    <div class="form-field form-submit row">
+      <input type="submit" class="btn ripple" value="{{include.form.submit}}"/>
+    </div>
+
+
 
 </form>
