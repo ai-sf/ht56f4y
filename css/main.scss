@@ -81,7 +81,6 @@ h1, h2, h3{
 nav.sidenav{
   position: fixed;
   z-index: 990;
-  min-width: 80vw;
   top: 0;
   bottom: 0;
   left: 0;
@@ -96,7 +95,9 @@ nav.sidenav{
 
   @media #{$small-and-down}{
     box-shadow: 0 4px 4px 0px rgba(#000, 0.2), 0px 8px 12px 6px rgba(#000, 0.15);
+    min-width: 80vw;
   }
+
 
   .nav-close{
     display: none;
@@ -896,9 +897,14 @@ nav.sidenav{
   padding: 0rem 1rem;
   &:focus, &:not(:placeholder-shown) {
     outline: none;
-    border-color: $primary !important;
+
     & + .form-field-label {
       transform: translate(0px, -1.55rem) scale(.8);
+    }
+  }
+  &:focus{
+    border-color: $primary !important;
+    & + .form-field-label{
       color: $primary !important;
     }
   }
@@ -961,7 +967,7 @@ nav.sidenav{
      .card-header {
       filter: blur(6px);
       &:hover { filter: blur(4px);}
-    }    
+    }
     &::before {
       content: '\f023';
       font: 90px 'FontAwesome';
@@ -976,7 +982,7 @@ nav.sidenav{
       height: 0px;
     }
   }
-} 
+}
 
 
 /* custom color for every page */
@@ -985,7 +991,7 @@ nav.sidenav{
   background: rgba(90,161,104,1);
   background: linear-gradient(0deg, rgba(90,161,104,1) 0%, rgba(255,255,255,1) 100%);
   color:white;
- } 
+ }
 
 #faq {
   .col .primary {
@@ -998,7 +1004,7 @@ nav.sidenav{
  background: rgb(255,216,24);
 background: linear-gradient(0deg, rgba(255,216,24,1) 0%, rgba(255,255,255,1) 100%);
   color:white;
- } 
+ }
 
 #speakers {
   .col div {
