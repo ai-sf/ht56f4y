@@ -3,32 +3,41 @@ registration:
     action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSdsDRLDSek85W4HazRMN0TBYVOooB67gpwkkfVW3SqdV1_ITA/formResponse"
     submit: Submit
     fields:
-    - id: committee
-      label: "Committee name"
-      type: text
-      name: entry.1798647217
-      info: "Committee name has to be preceded by LC (for local committees), NC (for national committees) or IM (for individual members)!"
-      required: true
-    - id: email
-      label: Email
-      type: email
-      name: entry.2035072992
-      required: true
-    - id: date
-      label: "Preliminaries date"
-      type: date
-      name: entry.400057823
-      required: true
-    - id: teams
-      label: Teams
-      type: textarea
-      name: entry.1074044697
-      required: true
-    - id: notes
-      label: "Additional notes"
-      type: textarea
-      name: entry.603835159
-      required: false
+    - row:
+      - id: committee
+        size: s15
+        label: "Committee name"
+        type: text
+        name: entry.1798647217
+        info: "Committee name has to be preceded by LC (for local committees), NC (for national committees) or IM (for individual members)!"
+        required: true
+    - row:
+      - id: email
+        label: Email
+        size: s15 m10
+        type: email
+        name: entry.2035072992
+        required: true
+      - id: date
+        size: s15 m5
+        label: "Preliminaries date"
+        type: date
+        name: entry.400057823
+        required: true
+    - row:
+      - id: teams
+        size: s15 m12
+        label: Teams
+        type: textarea
+        name: entry.1074044697
+        required: true
+    - row:
+      - id: notes
+        size: s15 m12
+        label: "Additional notes"
+        type: textarea
+        name: entry.603835159
+        required: false
 
 confirmation:
     id: confirmation
