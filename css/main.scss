@@ -450,6 +450,10 @@ nav.sidenav{
   .card.fullheight{
     height: 100%;
   }
+
+  &.top-align{
+    align-self: flex-start;
+  }
 }
 
 .right-text{
@@ -857,10 +861,26 @@ nav.sidenav{
 }
 
 
+.fields-row{
+  align-items: center;
+
+}
+
 .form-field{
+  box-sizing: border-box;
+  &[data-condition]{
+    display: none;
+  }
+
+  .field-info{
+    color: #666;
+    font-weight: 700;
+    padding: 1rem;
+    padding-top: 0.2rem;
+  }
 
   position: relative;
-  margin: 1rem 1rem;
+  margin: 1rem 0.5rem;
 
   &-text + &-label,
   &-textarea + &-label{
@@ -920,6 +940,7 @@ nav.sidenav{
   background-color: blue;
   background-color: $primary;
   color: $on-primary;
+  cursor: pointer;
   border: none;
   height: 3rem;
   padding: 0rem 2rem;
@@ -1020,6 +1041,10 @@ background: linear-gradient(0deg, rgba(255,216,24,1) 0%, rgba(255,255,255,1) 100
   position: relative;
   margin: 1em;
   text-align: left;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
 
   label{
     cursor: pointer;

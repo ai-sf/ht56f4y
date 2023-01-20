@@ -1,23 +1,23 @@
 <form action="{{include.form.action}}" method="post">
-
-  {% for field in include.form.fields %}
-  <div class="form-field form-{{field.type}}">
-    {% if field.type == "textarea" %}
-        <textarea class="form-field-textarea" id="{{field.id}}" name="{{field.name}}"  {% if field.required == true %} {% endif %}></textarea>
-    {% elsif (field.type == "text")  or (field.type == "date") or (field.type  == "number") or (field.type == "email") %}
-        <input class="form-field-text" type="{{field.type}}" id="{{field.id}}" placeholder=" " name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
-    {% elsif field.type == "checkbox" %}
-      <input class="form-field-checkbox" type="{{field.type}}" id="{{field.id}}" name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
+  {% for row in include.form.fields %}
+<div class="row fields-row">
+  {% for field in row.row %}
+   <div class="col top-align {{field.size}}">
+    {% if field.fields %}
+      {% for subfield in field.fields %}
+        {% include field.html data=subfield %}
+      {% endfor %}
     {% else %}
-        <input type="{{field.type}}" id="{{field.id}}" placeholder=" " name="{{field.name}}" value="{{field.value}}"  {% if field.required == true %} required {% endif %} />
+      {% include field.html data=field %}
     {% endif %}
-    <label class="form-field-label" for="{{field.id}}">{{field.label}}</label>
+   </div>
 
-  </div>
   {% endfor %}
+</div>
 
+  {% endfor %}
   <div class="form-field form-submit">
     <input type="submit" class="btn ripple" value="{{include.form.submit}}"/>
   </div>
-  <!--<button type="submit" id="{{form.id}}">{{form.submit}}</button> -->
+
 </form>

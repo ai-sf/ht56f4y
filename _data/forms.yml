@@ -7,6 +7,7 @@ registration:
       label: "Committee name"
       type: text
       name: entry.1798647217
+      info: "Committee name has to be preceded by LC (for local committees), NC (for national committees) or IM (for individual members)!"
       required: true
     - id: email
       label: Email
@@ -61,84 +62,111 @@ observers:
     subject: "[plancks][observers] New entry"
     submit: Submit
     fields:
-      - id: name
-        label: Name
-        type: text
-        name: entry.1037934396
-        required: true
-      - id: surname
-        label: Surname
-        type: text
-        name: entry.1292320118
-        required: true
-      - id: birthday
-        label: Birthday
-        type: date
-        name: entry.857060685
-        required: true
-      - id: visa
-        label: "Need to request visa?"
-        type: checkbox
-        value: true
-        name: entry.1263609753
-        required: false
-      - id: committee
-        label: Committee
-        type: text
-        name: entry.1650588131
-        required: true
-      - id: university
-        label: University
-        type: text
-        name: entry.959277855
-        required: true
-      - id: year
-        label: "Study year"
-        type: number
-        name: entry.1425691572
-        required: true
-      - id: letter
-        label: "Motivational letter"
-        type: textarea
-        name: entry.555211936
-        required: true
-      - id: presentation
-        label: "Want to give a presentation?"
-        type: checkbox
-        value: true
-        name: entry.1524629493
-        required: false
-      - id: presentation_title
-        label: "Presentation title"
-        type: text
-        name: entry.1256475891
-        required: false
-      - id: presentation_abstract
-        label: "Presentation abstract"
-        type: textarea
-        name: entry.738682288
-        required: false
-      - id: poster
-        label: "Want to present a poster?"
-        type: checkbox
-        value: true
-        name: entry.1232237956
-        required: false
-      - id: poster_title
-        label: "Poster title"
-        type: text
-        name: entry.1852623678
-        required: false
-      - id: poster_abstract
-        label: "Poster abstract"
-        type: textarea
-        name: entry.1043013879
-        required: false
-      - id: notes
-        label: "Additional notes"
-        type: textarea
-        name: entry.1725573787
-        required: false
+      - row:
+        - id: name
+          size: s15 m7 l6
+          label: Name
+          type: text
+          name: entry.1037934396
+          required: true
+        - id: surname
+          size: s15 m7 l6
+          label: Surname
+          type: text
+          name: entry.1292320118
+          required: true
+        - id: birthday
+          label: Birthday
+          size: s15 m7 l3
+          type: date
+          name: entry.857060685
+          required: true
+      - row:
+        - id: visa
+          size: s12 m4
+          label: "Need to request visa?"
+          type: checkbox
+          value: true
+          name: entry.1263609753
+          required: false
+      - row:
+        - id: committee
+          size: s15 m7 l6
+          label: Committee
+          type: text
+          name: entry.1650588131
+          required: true
+        - id: university
+          size: s15 m7 l6
+          label: University
+          type: text
+          name: entry.959277855
+          required: true
+        - id: year
+          size: s15 m7 l3
+          label: "Study year"
+          type: number
+          name: entry.1425691572
+          required: true
+      - row:
+        - id: letter
+          size: s15 m10
+          label: "Motivational letter"
+          type: textarea
+          name: entry.555211936
+          required: true
+      - row:
+        - id: presentation
+          label: "Want to give a presentation?"
+          size: s15 m5
+          type: checkbox
+          value: true
+          name: entry.1524629493
+          required: false
+        - size: s15 m7
+          fields:
+          - id: presentation_title
+            label: "Presentation title"
+            type: text
+            name: entry.1256475891
+            required: false
+            conditioned: presentation
+          - id: presentation_abstract
+            label: "Presentation abstract"
+            type: textarea
+            name: entry.738682288
+            required: false
+            conditioned: presentation
+      - row:
+        - id: poster
+          label: "Want to present a poster?"
+          type: checkbox
+          value: true
+          name: entry.1232237956
+          required: false
+          size: s15 m5
+        - group:
+          size: s15 m7
+          fields:
+          - id: poster_title
+            label: "Poster title"
+            type: text
+            name: entry.1852623678
+            conditioned: poster
+            required: false
+          - id: poster_abstract
+            label: "Poster abstract"
+            type: textarea
+            name: entry.1043013879
+            required: false
+            conditioned: poster
+      - row:
+        - id: notes
+          size: s15 m7
+          label: "Additional notes"
+          type: textarea
+          name: entry.1725573787
+          required: false
 
 partecipants:
   - id: partecipants

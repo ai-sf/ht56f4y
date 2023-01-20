@@ -235,8 +235,8 @@ $(document).ready(function () {
 });
 
 /* dropdown faq */
-jQuery('document').ready(function($){
-  $('.dropdown__top').click(function(){
+jQuery('document').ready(function ($) {
+  $('.dropdown__top').click(function () {
     if ($(this).parent(".dropdown").hasClass("open")) {
       $(this).parent(".dropdown").removeClass("open");
       $(this).siblings(".dropdown__btm").slideUp(500);
@@ -245,6 +245,15 @@ jQuery('document').ready(function($){
       $(".dropdown .dropdown__btm").slideUp(500);
       $(this).parent(".dropdown").addClass("open");
       $(this).siblings(".dropdown__btm").slideDown(500);
+    }
+  })
+
+
+  $("input[type='checkbox']").on("change", function () {
+    if (this.checked) {
+      $(".form-field[data-condition=" + $(this).prop("id") + "]").fadeIn();
+    } else {
+      $(".form-field[data-condition=" + $(this).prop("id") + "]").fadeOut();
     }
   })
 });
