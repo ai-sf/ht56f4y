@@ -70,20 +70,22 @@
 
 
   /* light */
-  $primary:              #4A58A9;
+ // $primary:              #4A58A9;
+ $primary: #1138b5;
   $on-primary:           #ffffff;
-  $primary-container:    #f1efff;
-  $on-primary-container: #000668;
-  $tertiary:            #ba192b;
+  $primary-container:    #f0f2ff;
+  $on-primary-container: #002388;
+  $tertiary:            #005226;
   $on-tertiary:         #ffffff;
-  $tertiary-container:  #ffdad8;
-  $secondary:          #e39e1a;
-  $secondary-container: #ffddb0;
+  $tertiary-container:  #8afaa6;
+  $on-tertiary-container:  #003918;
+  $secondary:          #e8c400;
+  $secondary-container: #fce58b;
   $on-secondary-container: #281800;
   $background: #fffbff;
   $on-background: #030865;
   $surface: #fffbff;
   $on-surface: #030865;
-  $surface-variant: #e3e1ec;
+  $surface-variant: #45464f;
   $on-surface-variant: #46464f;
-  $outline: #777680;
+  $outline: #90909a;

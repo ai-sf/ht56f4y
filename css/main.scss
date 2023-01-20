@@ -324,8 +324,9 @@ nav.sidenav{
 
     &.primary{
       .card-content{
-        background-color: $primary-container  !important;
+        background-color: $secondary-container  !important;
         flex: 1;
+        color: $on-secondary-container
       }
 
     }
@@ -334,7 +335,7 @@ nav.sidenav{
       @extend .border-radius;
       transition: all 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
       padding: 1rem 2rem;
-      background-color: $palette-primary90 !important;
+      background-color: $secondary !important;
 
     }
 
@@ -417,6 +418,10 @@ nav.sidenav{
   color: $on-secondary-container;
 }
 
+.tertiary{
+  background-color: $tertiary-container;
+  color: $on-tertiary-container;
+}
 
 
 // CONTENT MANAGEMENT
@@ -733,7 +738,7 @@ nav.sidenav{
 
 #speakers{
   .card{
-    justify-content: center;
+    justify-content: flex-start;
     height: 100%;
   }
   .speaker-biography{
@@ -995,7 +1000,7 @@ nav.sidenav{
     &::before {
       content: '\f023';
       font: 90px 'FontAwesome';
-      color: #957000;
+      color: $on-secondary-container;
       z-index: 200;
       position: relative;
       top: 5px;
@@ -1012,24 +1017,18 @@ nav.sidenav{
 /* custom color for every page */
 
 .FAQ{
-  background: rgba(90,161,104,1);
-  background: linear-gradient(0deg, rgba(90,161,104,1) 0%, rgba(255,255,255,1) 100%);
+  background: $tertiary-container;//rgba(90,161,104,1);
+  background: linear-gradient(0deg, $tertiary 0%, $tertiary-container 100%);
   color:white;
  }
 
-#faq {
-  .col .primary {
-    background: rgba(210,255,233,1);
-    &:hover{background: rgba(160,233,198,1);}
-  }
-}
 
 .Speakers{
- background: rgb(255,216,24);
-background: linear-gradient(0deg, rgba(255,216,24,1) 0%, rgba(255,255,255,1) 100%);
-  color:white;
+ background: $secondary;//rgb(255,216,24);
+background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
+  color:$on-secondary-container;
  }
-
+/*
 #speakers {
   .col div {
     background: rgb(255,245,193)!important;
@@ -1038,7 +1037,7 @@ background: linear-gradient(0deg, rgba(255,216,24,1) 0%, rgba(255,255,255,1) 100
     background: rgb(255,216,24)!important;
     & div{background: rgb(255,216,24)!important;}
   }
-}
+}*/
 
 .form-field.form-checkbox{
   position: relative;
@@ -1135,4 +1134,12 @@ background: linear-gradient(0deg, rgba(255,216,24,1) 0%, rgba(255,255,255,1) 100
   border-radius: 0.4rem;
   @extend .z-depth-5;
   transition: bottom 0.3s cubic-bezier(0.05, 0.1, 0.1, 1.0);
+}
+
+
+#home-title{
+  background: linear-gradient(0deg, rgba(105,161,247,.8) 0%, rgba(21,58,183,1) 100%);
+  h1,h2,h3{
+    color: white !important;
+  }
 }
