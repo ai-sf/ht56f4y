@@ -30,6 +30,7 @@ registration:
         label: Teams
         type: textarea
         name: entry.1074044697
+        info: "Insert the names of the teams separated by a semicolon."
         required: true
     - row:
       - id: notes
