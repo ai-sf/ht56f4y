@@ -83,6 +83,7 @@ nav.sidenav{
   z-index: 990;
   top: 0;
   bottom: 0;
+  overflow: hidden;
   left: 0;
   background-color: $primary;
   color: $on-primary;

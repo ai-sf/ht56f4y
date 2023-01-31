@@ -11,19 +11,19 @@
 #    icon: groups
   - text: Speakers
     url: "/speakers"
-    icon: forum
+    icon: mic_external_on
 #  - text: Sponsors
 #    url: "/sponsors"
 #    icon: sell
   - text: Road to Milan
     url: "/preliminaries"
-    icon: quiz
+    icon: flight
   - text: Registration
     url: "/registration"
     icon: "border_color"
   - text: Observers
     url: "/observers"
-    icon: "border_color"
+    icon: "visibility"
 #  - text: "Confirmation"
 #    url: "/confirmation"
 #    icon: "border_color"

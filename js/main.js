@@ -144,13 +144,13 @@ $.fn.ripple = function () {
 $(document).ready(function () {
   const mediaQuery = window.matchMedia('(min-width: 600px)');
   if (mediaQuery.matches) {
-    $("nav.sidenav").hover(function (){
+    $("nav.sidenav").hover(function () {
       let width = 100 + $(".nav-text").maxWidth();
-        $("nav.sidenav").css("max-width", width);
-      $(".nav-text").css("opacity", 1);
+      $("nav.sidenav").css("max-width", width);
+      $(".nav-text").delay(100).queue(function () { $(this).css("opacity", 1).clearQueue(); });
       },
       function () {
-        $("nav.sidenav").css("max-width", 80);
+        $("nav.sidenav").delay(100).queue(function () { $(this).css("max-width", 80).clearQueue(); });
         $(".nav-text").css("opacity", 0);
     }
     );
