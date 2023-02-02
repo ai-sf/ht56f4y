@@ -205,7 +205,7 @@ $(document).ready(function () {
       url: $(this).attr("action"),
       data: data,
       complete: function (data) {
-        toast("Thanks. Please check out your email to ensure that the form response is correctly stored.")
+        toast("Thank you, the form has been submitted.")
       }
 
     });
