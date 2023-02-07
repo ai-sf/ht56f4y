@@ -1,12 +1,10 @@
 <div class="form-field form-{{include.data.type}}" {% if include.data.conditioned %} data-condition="{{include.data.conditioned}}" {% endif %}>
   {% if include.data.type == "textarea" %}
-      <textarea class="form-field-textarea" id="{{include.data.id}}" name="{{include.data.name}}"  {% if include.data.required == true %} {% endif %}></textarea>
-  {% elsif (include.data.type == "text")  or (include.data.type == "date") or (include.data.type  == "number") or (include.data.type == "email") %}
-      <input class="form-field-text" type="{{include.data.type}}" id="{{include.data.id}}" placeholder=" " name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
-  {% elsif include.data.type == "checkbox" %}
-    <input class="form-field-checkbox" type="{{include.data.type}}" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
+      <textarea class="form-field-textarea" id="{{include.data.id}}" name="{{include.data.name}}" placeholder="{{include.data.placeholder}}" {% if include.data.required == true %} {% endif %}></textarea>
+  {% elsif (include.data.type == "text") or (include.data.type  == "date") or (include.data.type  == "number") or (include.data.type == "email") %}
+      <input class="form-field-text" placeholder=" " type="{{include.data.type}}" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
   {% else %}
-      <input type="{{include.data.type}}" id="{{include.data.id}}" placeholder=" " name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
+      <input type="{{include.data.type}}" placeholder=" " id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
   {% endif %}
   <label class="form-field-label" for="{{include.data.id}}">{{include.data.label}}{% if include.data.required %} *{%endif%}</label>
   {% if include.data.info %}

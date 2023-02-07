@@ -71,9 +71,10 @@ confirmation:
       - id: placement
         label: "Team placement"
         size: s15 m12
-        info: "Insert the names of the first teams (as many as admitted to the competition for your committee) from first to last, separated by commas."
+        info: "Insert the names of the first teams (as many as admitted to the competition for your committee) from first to last, following the syntax of the hint."
         type: textarea
         name: entry.492904529
+        placeholder: "winning team: person 1, person 2, person 3; second team: person 1, person 2, person 3; third team: person 1, person 2, person 3; ..."
         required: true
     - row:
       - id: notes
