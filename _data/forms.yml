@@ -68,6 +68,13 @@ confirmation:
         name: entry.2117408212
         required: true
     - row:
+      - id: email
+        label: "Email"
+        type: email
+        size: s15
+        name: entry.151785443
+        required: true
+    - row:
       - id: placement
         label: "Team placement"
         size: s15 m12
