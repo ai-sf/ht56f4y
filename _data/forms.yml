@@ -52,26 +52,43 @@ confirmation:
     action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe-YGAa6NG_kllo8Yy2g8g0aueRvq3hVg14fkS75WTePo_PCw/formResponse"
     submit: Submit
     fields:
-    - id: committee
-      label: "Committee name (preceded by LC or NC for local or national committees) or IM for individual members"
-      type: text
-      name: entry.511201573
-      required: true
-    - id: date
-      label: "Preliminaries date"
-      type: text
-      name: entry.2117408212
-      required: true
-    - id: placement
-      label: "Team placement"
-      type: textarea
-      name: entry.492904529
-      required: true
-    - id: notes
-      label: "Additional notes"
-      type: textarea
-      name: entry.1943471425
-      required: false
+    - row:
+      - id: committee
+        label: "Committee name"
+        info: "Committee name has to be preceded by LC (for local committees), NC (for national committees) or IM (for individual members)!"
+        type: text
+        size: s15
+        name: entry.511201573
+        required: true
+    - row:
+      - id: date
+        label: "Preliminaries date"
+        type: date
+        size: s15
+        name: entry.2117408212
+        required: true
+    - row:
+      - id: placement
+        label: "Team placement"
+        size: s15 m12
+        info: "Insert the names of the first n teams (where n is the number of teams of yout committee admitted to the competition) from the first to the last, separated by commas."
+        type: textarea
+        name: entry.492904529
+        required: true
+    - row:
+      - id: notes
+        label: "Additional notes"
+        size: s15 m12
+        type: textarea
+        name: entry.1943471425
+        required: false
+    - row:
+      - id: gdpr
+        size: s15 m12
+        label: "I hereby consent to the processing of the personal data I provided in this form, in agreement with the data protection regulations in the <a href='http://ai-sf.it/Informativa_Privacy_AISF.pdf'>data privacy statement</a> within the means of General Data Protection Regulation (GDPR) of European Union and art. 13 D.Lgs. 196/2003 (compulsory)*"
+        type: checkbox
+        name: entry.24938929
+        value: I agree
 
 observers:
     id: observers
@@ -228,3 +245,235 @@ partecipants:
         label: "Study year"
         type: number
         name: year
+
+details:
+    id: details
+    action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe-YGAa6NG_kllo8Yy2g8g0aueRvq3hVg14fkS75WTePo_PCw/formResponse"
+    submit: Submit
+    fields:
+    - row:
+      - id: name_latin
+        size: s15
+        label: "Name in latin alphabet"
+        type: text
+        name: entry.1798647217
+        required: true
+    - row:
+      - id: name
+        size: s15
+        label: "Name in your alphabet"
+        type: text
+        name: entry.1798647217
+        required: false
+    - row:
+      - id: name
+        size: s15
+        label: "Name in phonetic alphabet"
+        type: text
+        name: entry.1798647217
+        required: false
+    - row:
+      - id: title
+        label: Title
+        size: s15
+        type: text
+        name: entry.2035072992
+        required: true
+    - row:
+      - id: email
+        label: Email
+        size: s15 m10
+        type: email
+        name: entry.2035072992
+        required: true
+      - id: Country
+        size: s15
+        label: Country
+        type: text
+        name: entry.400057823
+        required: true
+    - row:
+      - id: id_type
+        label: "ID type (passport or ID card)"
+        size: s15
+        type: text
+        name: entry.1074044697
+        required: true
+      - id: id_number
+        size: s15
+        label: "ID number"
+        type: text
+        name: entry.603835159
+        required: true
+      - id: id_issue
+        size: s15
+        label: "ID place of issue"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: birth_date
+        size: s15
+        label: "Date of birth"
+        type: date
+        name: entry.603835159
+        required: true
+      - id: nationality
+        size: s15
+        label: "Nationality"
+        type: text
+        name: entry.603835159
+        required: true
+      - id: birth_place
+        size: s15
+        label: "Place of birth"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: gender
+        size: s15
+        label: "Gender"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: room
+        size: s15
+        label: "Room preference"
+        type: text
+        name: entry.603835159
+        required: false
+    - row:
+      - id: diet
+        size: s15
+        label: "Diet"
+        type: text
+        name: entry.603835159
+        required: false
+    - row:
+      - id: allergies
+        size: s15
+        label: "Allergies"
+        type: text
+        name: entry.603835159
+        required: false
+    - row:
+      - id: disabilities
+        size: s15
+        label: "Disabilities"
+        type: text
+        name: entry.603835159
+        required: false
+    - row:
+      - id: printed_program
+        size: s15
+        label: "Need for printed program? (Save trees: don't make us print it if not needed!)"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: tshirt_size
+        size: s15
+        label: "T-shirt size"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: last_transport
+        size: s15
+        label: "Last mean of transport at arrival"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: preferences
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: arrival
+        size: s15
+        label: "Arrival point in Milan"
+        type: text
+        name: entry.603835159
+        required: true
+    - row:
+      - id: gdpr
+        size: s15 m12
+        label: "I hereby consent to the processing of the personal data I provided in this form, in agreement with the data protection regulations in the <a href='http://ai-sf.it/Informativa_Privacy_AISF.pdf'>data privacy statement</a> within the means of General Data Protection Regulation (GDPR) of European Union and art. 13 D.Lgs. 196/2003 (compulsory)*"
+        type: checkbox
+        name: entry.1690712167
+        value: I agree
