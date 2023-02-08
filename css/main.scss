@@ -323,21 +323,41 @@ nav.sidenav{
       @extend .z-depth-3;
     }
 
+    .card-content{
+      flex: 1;
+    }
+
+
     &.primary{
+      .card-content{
+        background-color: $primary-container  !important;
+        color: $on-primary-container
+      }
+
+      .card-header{
+        background-color: $primary !important;
+        color: $on-primary !important;
+      }
+
+    }
+
+    &.secondary{
       .card-content{
         background-color: $secondary-container  !important;
         flex: 1;
         color: $on-secondary-container
       }
 
+      .card-header{
+        background-color: $secondary !important;
+        color: $on-secondary-container !important;
+      }
     }
 
     .card-header{
       @extend .border-radius;
       transition: all 0.5s cubic-bezier(0.05, 0.1, 0.1, 1.0);
       padding: 1rem 2rem;
-      background-color: $secondary !important;
-
     }
 
     &.opened{
@@ -1141,5 +1161,51 @@ background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
   background: linear-gradient(0deg, rgba(105,161,247,.8) 0%, rgba(21,58,183,1) 100%);
   h1,h2,h3{
     color: white !important;
+  }
+}
+
+
+
+.masonry-cards{
+  columns: 1;
+  column-gap: 0rem;
+  margin-top: 2rem;
+
+  @media #{$large-and-up}{
+    columns: 2;
+  }
+
+  .card{
+    @extend .z-depth-2;
+    margin: 0rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: row;
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+    gap: 2.2rem;
+    .card-image{
+      img{
+        width: 12rem;
+        height: 12rem;
+        object-fit:cover;
+          border-radius: 50%;
+      }
+
+    }
+
+    .card-content{
+      h2{
+        transform: rotate(-1deg);
+        text-align: center;
+        font-family:"Roboto Mono";
+        font-weight: 900;
+        margin-bottom: 1rem;
+        background-color: $on-primary-container;
+        color: #fff;
+        padding: 4px 15px;
+        width: fit-content;
+      }
+    }
   }
 }

@@ -1,57 +1,160 @@
 people:
- - name: Mr X
-   date: Friday, 12<span class="super">th</span>
-   topic: "Newton's Principia Mathematica: an introduction."
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Massachusetts Institute of Technology
-   locked: true
- - name: Mr Y
-   date: Friday, 12<span class="super">th</span>
-   topic: Dark matter and dark energy, reconsidered.
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Alma Mater Studiorum Bologna
-   locked: true
- - name: Mr C
-   date: Friday, 12<span class="super">th</span>
-   topic: Is quantum mechanics correct?
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Università degli Studi di Milano, Dipartimento di Matematica
-   locked: true
- - name: Mr X
-   date: Friday, 12<span class="super">th</span>
-   topic: "Newton's Principia Mathematica: an introduction."
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Massachusetts Institute of Technology
-   locked: true
- - name: Mr Y
-   date: Friday, 12<span class="super">th</span>
-   topic: Dark matter and dark energy, reconsidered.
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Alma Mater Studiorum Bologna
-   locked: true
- - name: Mr C
-   date: Friday, 12<span class="super">th</span>
-   topic: Is quantum mechanics correct?
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Università degli Studi di Milano, Dipartimento di Matematica
-   locked: true
-locked:
-  name: Locked
-  date: "???"
-  topic: "You have to unlock this character. Play on our <a href=\"https://www.instagram.com/plancks23/\">instagram account</a> and stay tuned!"
-  biography: ""
-  abstract: ""
-  img: blank.png
-  uni: "???"
+ - name: Nicola Bianchetti
+   bio: "Physics student at \"Università degli studi di Milano\", particularly interested in Astrophysics and Cosmology.
+He is the International Relationships Secretary for the PLANCKS 2023 OC, dragged in by the presidents' gravitational attraction (send help).
+His main passion is weigth lifting so don't be surprised if you see him eating 7/24.
+He also enjoys music and loves playing the guitar (horribly).
+He is a meme lover and laughs easily at stupid jokes.
+Legends say he once loved maths and calculations but that just seems to be an eco of the past"
+   img: bianchetti.jpg
+ - name: Silvia Picca
+   bio: "During her high school years she was a school representative and the director of the student newspaper. In her spare time she attends theater classes, singing and she is a big fan of art. Her biggest passion is physics and that’s why she has been attending the university of Milan for the last two years. Silvia joined AISF and now collaborates in the realization of PLANCK2023, in particular she is part of the social team and occasionally helps plan some activities in the city.
+She is a real nerdy girl, knows anything Star Wars related and reads manga all night long. If you want to have a conversation on these topics run to her!"
+   img: picca.jpg
+ - name: Mattia Bianchessi
+   bio: "Mattia Bianchessi is a member of the local committe of AISF (Italian Association of Physics Student) and of the scientific program of PLANCKS OC. He's a master's student in Physics at Unimi (Università degli Studi di Milano) focusing in observational and computational astrophysics.
+Being a car enthusiast, when his mind is free from questions about the universe you can find him driving or cleaning his already clean car. "
+   img: bianchessi.jpg
+
+ - name: Alessia Sambruna
+   bio: "I'm Alessia, an undergraduate student from Università Statale di Milan. Over the past three years, I've discovered in physics not only a fascinating subject matter, but also a powerful instrument to investigate the world around us, from the physical world to biological systems, to social phenomena and interactions.
+I've always loved meeting new people, communicating and exchanging ideas, especially with people coming from different cultures and realities. So, two years ago I decided to join AISF and I soon became involved in various activities of the association.
+In the organization of Plancks, I'm part of the Social Team, helping to manage the Instagram account and create infographics.
+In addition to my passion for science, I've always felt a strong interest in art in all its forms. I'm part of a dance company, I play the clarinet in the city band, and I recently started learning the ukulele. I also enjoy drawing, as it's a great way to express my thoughts on social issues.
+"
+   img: sambruna.jpg
+
+ - name: Alessandro Reverberi
+   bio: "Hi everyone! I am an Italian Physics student at Università degli Studi di Milano. I love Theoretical
+and Matematical physics, in particular gravitation and Chaos theory.
+I am a violin player who’s completely in love with polyphonically music as Renaissance’s composer
+like Giovanni Gabrieli and baroque composer, first of all J.S.Bach.
+I am also an Alpine hunter who is in love with animals and enviroment, looking for every possible
+moment to spend in woods in mountain, living the time of nature.
+In my leisure time I need to be on the move... I love reading Lovecraft, philosophy and theological
+books, I’m volunteering as a catechist, I bare my lovely girlfriend, I love cooking and last but not
+least I took part in the PLANKS’ organization as a “sponsor hunter”."
+   img: reverberi.jpg
+
+ - name: Gabriele Fuar Bassini
+   bio: "Gabriele Fusar Bassini is a fish out of water among Physics students. Now a master's student in Data Science and Economics at the University of Milan, he boasts a bachelor degree in Media & Arts. Might not be the most useful piece of paper around Physics departments, but comes in handy when it's time to design new graphics, logos and even help out with the PLANCKS website.
+His heart is divided between arts and track & field: you may see him taking pictures in the surroundings, or finishing some last minute design. If not, he's definitely training."
+   img: bassini.jpg
+
+ - name: Andrea Parpinel
+   bio: "Andrea Parpinel is the actual Milano-Bicocca's Local Committee AISF president and a member of the PLANCKS23 organization team.
+ He's a Bachelor Physics student, very passionate about Theoretical Physics and all that similar stuff that requires some chalk and a lot of mathematics!
+ His main hobbies, other than doing boring math, include playing guitar and reading books. Sci-fi books. Obviously.
+ When he has some free time he loves to attend astronomical observations held in observatories or at high altitudes, no matter how far he has to drive in order to get there!
+"
+   img: parpinel.jpg
+
+
+ - name: Luca Palini
+   bio: "
+Having been actively involved in Milan local committee (AISF - Unimi) for the past two years, he now serves as head of the local PLANCKS organization. He spends his days volunteering and laying on the couch, while in his free time he is a first-year master student in physics at Milan State University. He wishes to specialize in integrated photonics on silicon. He is interested in electronics and computer science; in short a missed engineer. A movie buff, he spends half of his commuting time in his car and feels like Dwight Schrute in \"The Office.\"
+P.S. I took the staff photos and they didn't even thank me. Make them feel guilty too.
+"
+   img: palini.jpg
+
+
+ - name: Elisabetta Agnese Panico
+   bio: "
+Elisabetta Agnese Panico was a member of the local committee of AISF back in 2016-2018, but you never know where life takes you! She has finished her bachelor in Management Engineering at Politecnico di Milano and currently studying lyrical singing at Conservatorio G. Verdi di Milano. Organization and music are two sides of her life. She believes that music is a boundless language, that has the power to connect people with different cultures and backgrounds, and she loves taking care of a project, create something new and different, and that is even more appealing when music is around. She is now an active member of the organization of the edition of PLANKCS 2023.
+She’s very passionate about Opera and she works in some other projects in the opera field. Elisabetta hopes to share beauty and enchantment with other human beings.
+"
+   img: panico.jpg
+
+ - name: Lorenzo Malanga
+   bio: "
+Member of the local committee of AISF (Associazione Italiana Studenti di Fisica) and master's student at UniMi, specializing in Astrophysics. He happens also to be the head of the competition program in PLANCKS 2023, contributing to make this event remarkable.
+He is the kind of guy that likes telling you about astrophysics stuff you didn't ask for or that keeps on making jokes you are not gonna laugh at. Somebody would say he's still a child, but maybe the kid inside of him never died, that's why he will never keep his feet on the ground.
+…and he is also a famous pianist and songwriter!
+
+"
+   img: malanga.jpg
+
+
+ - name: Michele Bianchessi
+   bio: "
+I'm Michele Bianchessi, AISF member since 2019 and Physics student at the University of Milan. A few months ago I started attending the master's degree courses: my interests involve theoretical physics, especially Quantum Field Theory and theoretical Particle Physics. I'm also fascinated by the exceptional beauty and elegance of General Relativity. Beyond physics, playing the piano and hiking in the mountains have been my greatest passions since I was a child. With a bit of luck, I hope I'll succeed in getting a piano degree before graduating.
+
+"
+   img: bianchessi_mi.jpg
+
+
+ - name: Nicole Grillo
+   bio: "
+Member of the local committee of AISF Milano Statale (Italian Association of Physics Students) from the first year of university, she has always been a strong supporter of all the projects carried out and a promoter among the youngest. Being always curious about every aspect of the world around her, she could choose the only degree program that would allow her to answer all the questions that came to her mind (or almost all of them!). She's passionate about astrophysics and deeply torn between her love for the stars and all the computational aspects of a subject. Determined to achieve her goals, stubborn, she throws headlong until a problem is solved, at the cost of losing hours of sleep and becoming mad. When she's not programming something super intricate, you can find her reading a book curled up in an armchair, endlessly chatting about some TV series and anime with friends, or at the gym, lifting objects of various kinds to ease her tension.
+"
+   img: grillo.jpg
+
+
+ - name: Sonia Genovesi
+   bio: "
+Sonia Genovesi has been a member of the local committee of AISFUnimi for 2 years now, she has taken part in many of the committee projects and she is now an active member of the organization of the edition of PLANKCS 2023.
+Student in the last year of a bachelor's degree in physics at the 'Aldo Pontremoli’ Physics Department of the University of Milan, she plans to specialize in the field of theoretical physics. Being passionate about quantum mechanics, statistical mechanics and coding she spends too much time staring at her blackboard asking herself too many questions, like when the tea will be ready.
+Determined to make all her dreams come true, stubborn, strong and independent. In her free time you’ll find her with her friends making fun of engineers or doing any kind of sports, especially in the gym lifting weights wondering why God does play dice.
+"
+   img: genovesi.jpg
+
+ - name: Elisa Stabilini
+   bio: "
+I'm Elisa Stabilini, a master's degree student of Physics of Data here in Milan. The choice of this degree program is tightly related to my interests beyond physics: I'm super fascinated by the possibility to describe and analyze social, economical, and environmental problems through data. Indeed the decision to pick up a major in Physics came from the idea that the study of physics can provide me with a toolbox that helps me understand the complex phenomena we are living in.
+
+I joined AISF a few years ago, during the COVID pandemic, in order to keep in touch with other students like me. I soon got involved in the organization of activities and meetings for other students. Within the PLANCKS2023 organization, I helped in contacting and working with the sponsor, I also helped a little bit with the creation of content for the site.
+
+I genuinely hope, together with the other team members, to have been able to organize a nice experience and stay in Milan. See you soon!
+"
+   img: stabilini.jpg
+
+
+ - name: Luca Radavelli
+   bio: "
+Luca Radavelli is a strange kind of animal. His natural habitat is the couch where he spends most of his time watching Movies and TV Series. He can also be found studying Physics, but this behavior has been rarely obserbed. Another sighting area is the University of Milan where he is a master's student specializing in Theoretical Physics. Surprisingly he is the Vice President of the Local Committee of AISF (Italian Association of Physics Students) even though such a position should have gone to a more responsible person. In the organization of PLANCKS 2023, he is the head of the Scientific Program, which has the goal to ensure a high level of scientific divulgation during this ambitious event. For this reason, all the other organizers are keeping a close eye on him to make sure that he doesn’t do something really stupid which would ruin PLANCKS for everyone.
+"
+   img: radavelli.jpg
+
+ - name: Gloria Senatore
+   bio: "
+Hi everyone! My name is Gloria. I am an Italian Physics student at Università degli Studi di Milano. I love Particle Physics, both the theoretical and the experimental aspects of this fascinating subject.
+In my spare time, I like traveling, listening to music and spending time with my family and friends. I am trying to learn how to play the piano and sing at the same time… it’s quite difficult! I need a lot more practice.
+When PLANCKS OC Presidents proposed PLANCKS project to my attention, I thought we would never be able to overcome all the difficulties. However, to my great surprise, we made it! Our success was possible only with the help of everyone. Through this experience, I have learned the importance of working together for a common purpose and communicating with each other, besides having great fun!
+"
+   img: senatore.jpg
+
+
+
+ - name: Matteo Vismara
+   bio: "
+After having chaired the local committee of Milan (AISFUnimi) in the last two years, since May 2022 he has held the position of President of the Italian Association of Physics Students (AISF). Student in the last year of a master's degree at the 'Aldo Pontremoli’ Physics Department of the University of Milan, he wishes to specialize in the field of matter physics. In particular, interested in the applications that Physics has in multidisciplinary fields, he is looking for transversal projects that can allow him to combine the fun of the experimental with the rigor of the theoretical. Characterized by great enthusiasm, he throws himself headlong into many projects, punctually forgetting that his days have only 24 hours. Passionate about philosophy, he loves to spend time reading the great classics of thought. In his spare time, in addition to dedicating himself to relationships with friends, he seeks contact with nature by taking long walks in the woods, sailing on the lake or climbing.
+"
+   img: vismara.jpg
+
+
+
+ - name: Matteo Zeccoli Marazzini
+   bio: "
+
+Matteo is a student at the Physics Department of the University of Milan, about to graduate in the Master’s degree with a thesis in the field of computational observational cosmology. His interest in Physics is comparable only to his passion about computers, which led him to work for more than one year as the lead sysadmin in a student-managed HPC cluster used by Theoretical Physics research group in the department. In his future, he sees himself working in projects that combine his twofold interest in the Universe and in Computer Science. When not studying, he is an educator in his city Scout group, trying to transmit his enthusiasm and love for life to young people.
+
+"
+   img: marazzini.jpg
+
+
+
+ - name: Valentina Raspagni
+   bio: "
+Valentina Raspagni is a master's student in Physics at the University of Milan and is currently specializing in environmental physics.
+Having joined the Italian Physics Students Association (AISF)in 2022, she is now an active member of the organization of the 2023 edition of PLANCKS as the head of the sponsor section of the organizing committee.
+In her spare time, she loves, depending on her mood, reading, and writing, listening to music and playing sports in all its expressions. She also devotes a lot of this time to spreading optimism and cooking like a real MasterChef, delighting her friends with lunches and many ... many desserts.
+"
+   img: raspagni.jpg
+
+ - name: Francesco Righini
+   bio: "
+He is a curious child always fascinated by how beauty and complexity can emerge from simplicity: he loves music, mountains and the contact with nature. He spends hours in the night letting his eyes wander around the sky.
+As you may guess, he is now specializing in theoretical Physics of Complex Systems and (less trivially) in the Physics of Proteins.
+When organizing PLANKCS gets hard, he thinks about all the people he is going to meet and the friendships he’s going to build and that is what gives him strength to carry on and raise the bar!
+"
+   img: righini.jpg

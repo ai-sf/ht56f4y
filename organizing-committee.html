@@ -8,34 +8,23 @@ title: Organizing Committee
 {% include title.html data=site.data.organizing-committee.title %}
 
 
-<div id="speakers" class="row">
-  {% for real_speaker in site.data.organizing-committee.people %}
-
-  <div class="col l5 m5">
-    <div class="card ripple horizontal circle-image primary expandable">
-    <div class="card-header">
+<div id="organizing-committee" class="masonry-cards">
+  {% for person in site.data.organizing-committee.people %}
+<div>
+  <div class="card left-image primary">
       <div class="card-image">
-        <img src="{{site.url}}/img/{{speaker.img}}" />
+        <img src="{{site.url}}/img/organizing-committee/{{person.img}}" />
       </div>
-      <div class="card-title">
-        <h2>{{speaker.name}}</h2>
-        <div class="card-subtitle roboto">{{speaker.uni}}</div>
+      <div class="card-content">
+        <div class="card-title">
+          <h2>{{person.name}}</h2>
+        </div>
+        <div class="bio">
+          {{person.bio}}
+        </div>
       </div>
-      <div class="card-action-top">
-        <i class="material-symbols-outlined">more_vert</i>
-      </div>
-    </div>
-    <div class="card-content">
-      <div class="speaker-date"><i class="material-symbols-outlined">calendar_month</i><span>{{speaker.date}}</span></div>
-      <div class="speaker-title">{{speaker.topic}}</div>
-      <div class="speaker-abstract reveal">{{speaker.abstract}}</div>
-      <div class="speaker-biography reveal">{{speaker.biography}}</div>
-
-    </div>
   </div>
-
-  </div>
-
+</div>
 
   {% endfor %}
 </div>
