@@ -21,6 +21,9 @@
   - text: Registration
     url: "/registration"
     icon: "border_color"
+  - text: Confirmation
+    url: "/confirmation"
+    icon: "check"
   - text: Observers
     url: "/observers"
     icon: "visibility"

@@ -891,7 +891,7 @@ nav.sidenav{
 
 }
 
-.form-field{
+.form-field {
   box-sizing: border-box;
   &[data-condition]{
     display: none;
@@ -908,7 +908,7 @@ nav.sidenav{
   margin: 1rem 0.5rem;
 
   &-text + &-label,
-  &-textarea + &-label{
+  &-textarea + &-label {
     position: absolute;
     left: 1rem;
     top: 0.9rem;
@@ -922,7 +922,6 @@ nav.sidenav{
     box-sizing: border-box;
     color: $outline;
     //line-height: 1.2;
-
  }
 
  &-text, &-textarea {
@@ -940,20 +939,33 @@ nav.sidenav{
   font-family: "Montserrat";
   font-weight: bold;
   padding: 0rem 1rem;
-  &:focus, &:not(:placeholder-shown) {
-    outline: none;
-
-    & + .form-field-label {
-      transform: translate(0px, -1.55rem) scale(.8);
-    }
-  }
   &:focus{
     border-color: $primary !important;
     & + .form-field-label{
       color: $primary !important;
     }
   }
-}
+ }
+
+ &-textarea,
+ &-text:focus,
+ &-text:not(:placeholder-shown) {
+ //&-text {
+  //&:focus, &:not(:placeholder-shown) {
+    outline: none;
+
+    & + .form-field-label {
+      transform: translate(0px, -1.55rem) scale(.8);
+    }
+  }
+
+//&-textarea {
+  //outline: none;
+
+  //& + .form-field-label {
+    //transform: translate(0px, -1.55rem) scale(.8);
+  //}
+//}
 
 &-textarea{
   height: fit-content;
