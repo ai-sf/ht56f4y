@@ -287,9 +287,9 @@ nav.sidenav{
         align-items: center;
         .card-image{
           img{
-            width: 3rem;
-            height: 3rem;
-            object-fit: scale-down;
+            width: 5rem;
+            height: 5rem;
+            object-fit: cover;
               border-radius: 50%;
           }
         }
@@ -757,9 +757,22 @@ nav.sidenav{
 
 
 #speakers{
+  & > div{
+
+
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+         break-inside: avoid;
+
+  }
+  columns: 1;
+  @media #{$large-and-up}{
+    columns: 3;
+  }
   .card{
     justify-content: flex-start;
     height: 100%;
+    padding-bottom: 1rem;
   }
   .speaker-biography{
     margin-top: 1rem;

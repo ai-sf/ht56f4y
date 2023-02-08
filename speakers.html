@@ -8,20 +8,20 @@ title: Speakers
 {% include title.html data=site.data.speakers.title %}
 
 
-<div id="speakers" class="row">
+<div id="speakers">
   {% for real_speaker in site.data.speakers.speakers %}
   {% if real_speaker.locked %}
     {% assign speaker = site.data.speakers.locked %}
-    {% assign class = "col l5 m5 s15 locked" %}
+    {% assign class = "locked" %}
   {% else %}
     {% assign speaker = real_speaker %}
-    {% assign class = "col l5 m5 s15" %}
+    {% assign class = "" %}
   {% endif %}
   <div class="{{class}}">
     <div class="card ripple horizontal circle-image secondary expandable">
     <div class="card-header">
       <div class="card-image">
-        <img src="{{site.url}}/img/{{speaker.img}}" />
+        <img src="{{site.url}}/img/speakers/{{speaker.img}}" />
       </div>
       <div class="card-title">
         <h2>{{speaker.name}}</h2>
@@ -32,10 +32,10 @@ title: Speakers
       </div>
     </div>
     <div class="card-content">
-      <div class="speaker-date"><i class="material-symbols-outlined">calendar_month</i><span>{{speaker.date}}</span></div>
+      {% if speaker.date %} <div class="speaker-date"><i class="material-symbols-outlined">calendar_month</i><span>{{speaker.date}}</span></div>{% endif %}
       <div class="speaker-title">{{speaker.topic}}</div>
       <div class="speaker-abstract reveal">{{speaker.abstract}}</div>
-      <div class="speaker-biography reveal">{{speaker.biography}}</div>
+      <div class="speaker-biography">{{speaker.biography}}</div>
 
     </div>
   </div>
