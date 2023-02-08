@@ -46,6 +46,7 @@ body {
   background-color: $background;
   position: relative;
   overflow-x: hidden;
+  padding-bottom: 2rem;
   @media #{$medium-and-up}{
     width: calc(100% - 80px);
     margin-left: 80px;
@@ -1197,14 +1198,14 @@ background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
   margin-top: 2rem;
 
   @media #{$large-and-up}{
-    columns: 2;
+    columns: 3;
   }
 
   .card{
     @extend .z-depth-2;
     margin: 0rem 1rem 2rem 1rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     @media #{$medium-and-down}{
       flex-direction: column;
     }
@@ -1215,8 +1216,8 @@ background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
     .card-image{
       align-self: center;
       img{
+        max-width: 100%;
         width: 12rem;
-        height: 12rem;
         object-fit:cover;
           border-radius: 50%;
       }
@@ -1227,6 +1228,7 @@ background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
       h2{
         transform: rotate(-1deg);
         text-align: center;
+        margin:auto;
         font-family:"Roboto Mono";
         font-weight: 900;
         margin-bottom: 1rem;
@@ -1236,5 +1238,17 @@ background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
         width: fit-content;
       }
     }
+  }
+}
+
+h1.area-title{
+  color: $on-primary-container;
+  text-align: center;
+  font-size: 3rem;
+  &:not(:first-of-type){
+    margin-top: 5rem;
+  }
+  &:first-of-type{
+    margin-top: 3rem;
   }
 }

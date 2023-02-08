@@ -7,11 +7,17 @@ title: Organizing Committee
 
 {% include title.html data=site.data.organizing-committee.title %}
 
-
+{% for area in site.data.organizing-committee.areas %}
+<h1 class="area-title">{{area.title}}</h1>
 <div id="organizing-committee" class="masonry-cards">
-  {% for person in site.data.organizing-committee.people %}
+  {% for person in area.people %}
 <div>
-  <div class="card left-image primary">
+  {% if person.president %}
+    {% assign class="secondary" %}
+  {% else %}
+    {% assign class="primary" %}
+  {% endif %}
+  <div class="card left-image {{class}}">
       <div class="card-image">
         <img src="{{site.url}}/img/organizing-committee/{{person.img}}" />
       </div>
@@ -28,3 +34,5 @@ title: Organizing Committee
 
   {% endfor %}
 </div>
+
+{% endfor %}
