@@ -1192,11 +1192,15 @@ background: linear-gradient(0deg, $secondary 0%, $secondary-container 100%);
     margin: 0rem 1rem 2rem 1rem;
     display: flex;
     flex-direction: row;
+    @media #{$medium-and-down}{
+      flex-direction: column;
+    }
     -webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;
     gap: 2.2rem;
     .card-image{
+      align-self: center;
       img{
         width: 12rem;
         height: 12rem;
