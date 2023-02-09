@@ -1,4 +1,25 @@
 areas:
+  - title: "Presidency Group"
+    people:
+    - name: Matteo Vismara
+      president: y
+      bio: "
+    After having chaired the local committee of Milan (AISFUnimi) in the last two years, since May 2022 he has held the position of President of the Italian Association of Physics Students (AISF). Student in the last year of a master's degree at the 'Aldo Pontremoli’ Physics Department of the University of Milan, he wishes to specialize in the field of matter physics. In particular, interested in the applications that Physics has in multidisciplinary fields, he is looking for transversal projects that can allow him to combine the fun of the experimental with the rigor of the theoretical. Characterized by great enthusiasm, he throws himself headlong into many projects, punctually forgetting that his days have only 24 hours. Passionate about philosophy, he loves to spend time reading the great classics of thought. In his spare time, in addition to dedicating himself to relationships with friends, he seeks contact with nature by taking long walks in the woods, sailing on the lake or climbing.
+    "
+      img: vismara.jpg
+
+
+
+    - name: Francesco Righini
+      president: y
+      bio: "
+    He is a curious child always fascinated by how beauty and complexity can emerge from simplicity: he loves music, mountains and the contact with nature. He spends hours in the night letting his eyes wander around the sky.
+    As you may guess, he is now specializing in theoretical Physics of Complex Systems and (less trivially) in the Physics of Proteins.
+    When organizing PLANKCS gets hard, he thinks about all the people he is going to meet and the friendships he’s going to build and that is what gives him strength to carry on and raise the bar!
+    "
+      img: righini.jpg
+
+
   - title: "Sponsor Group"
     people:
 
@@ -164,21 +185,3 @@ areas:
 
 
 
-  - title: "Presidency Group"
-    people:
-    - name: Matteo Vismara
-      president: y
-      bio: "
-    After having chaired the local committee of Milan (AISFUnimi) in the last two years, since May 2022 he has held the position of President of the Italian Association of Physics Students (AISF). Student in the last year of a master's degree at the 'Aldo Pontremoli’ Physics Department of the University of Milan, he wishes to specialize in the field of matter physics. In particular, interested in the applications that Physics has in multidisciplinary fields, he is looking for transversal projects that can allow him to combine the fun of the experimental with the rigor of the theoretical. Characterized by great enthusiasm, he throws himself headlong into many projects, punctually forgetting that his days have only 24 hours. Passionate about philosophy, he loves to spend time reading the great classics of thought. In his spare time, in addition to dedicating himself to relationships with friends, he seeks contact with nature by taking long walks in the woods, sailing on the lake or climbing.
-    "
-      img: vismara.jpg
-
-
-
-    - name: Francesco Righini
-      bio: "
-    He is a curious child always fascinated by how beauty and complexity can emerge from simplicity: he loves music, mountains and the contact with nature. He spends hours in the night letting his eyes wander around the sky.
-    As you may guess, he is now specializing in theoretical Physics of Complex Systems and (less trivially) in the Physics of Proteins.
-    When organizing PLANKCS gets hard, he thinks about all the people he is going to meet and the friendships he’s going to build and that is what gives him strength to carry on and raise the bar!
-    "
-      img: righini.jpg
