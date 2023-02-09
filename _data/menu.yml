@@ -6,9 +6,9 @@
   - text: Schedule
     url: "/schedule"
     icon: calendar_month
-#  - text: Organizing Committee
-#    url: "/organizing_committee"
-#    icon: groups
+  - text: Organizing Committee
+    url: "/organizing_committee"
+    icon: diversity_3
   - text: Speakers
     url: "/speakers"
     icon: mic_external_on
