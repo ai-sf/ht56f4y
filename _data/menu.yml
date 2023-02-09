@@ -7,7 +7,7 @@
     url: "/schedule"
     icon: calendar_month
   - text: Organizing Committee
-    url: "/organizing_committee"
+    url: "/organizing-committee"
     icon: diversity_3
   - text: Speakers
     url: "/speakers"
