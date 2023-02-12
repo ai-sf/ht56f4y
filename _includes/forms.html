@@ -4,6 +4,7 @@
   {% for field in row.row %}
    <div class="col  {{field.size}}">
     {% if field.fields %}
+      {% if field.label %} <p class="field-info">{{field.label}}</p> {% endif %}
       {% for subfield in field.fields %}
         {% include field.html data=subfield %}
       {% endfor %}

@@ -3,6 +3,8 @@
       <textarea class="form-field-textarea" id="{{include.data.id}}" name="{{include.data.name}}" placeholder="{{include.data.placeholder}}" {% if include.data.required == true %} {% endif %}></textarea>
   {% elsif (include.data.type == "text") or (include.data.type  == "date") or (include.data.type  == "number") or (include.data.type == "email") %}
       <input class="form-field-text" placeholder=" " type="{{include.data.type}}" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
+  {% elsif include.data.type == "radio" %}
+      <input class="form-field-radio" placeholder=" " type="radio" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.checked == true %} checked {% endif %} />
   {% else %}
       <input type="{{include.data.type}}" placeholder=" " id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
   {% endif %}

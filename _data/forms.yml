@@ -267,15 +267,14 @@ details:
         name: entry.1798647217
         required: true
     - row:
-      - id: name
-        size: s15
+      - id: name_alphabet
+        size: s15 m8
         label: "Name in your alphabet"
         type: text
         name: entry.1798647217
         required: false
-    - row:
-      - id: name
-        size: s15
+      - id: name_phonetic
+        size: s15 m7
         label: "Name in phonetic alphabet"
         type: text
         name: entry.1798647217
@@ -283,11 +282,10 @@ details:
     - row:
       - id: title
         label: Title
-        size: s15
+        size: s15 m5
         type: text
         name: entry.2035072992
         required: true
-    - row:
       - id: email
         label: Email
         size: s15 m10
@@ -301,181 +299,282 @@ details:
         name: entry.400057823
         required: true
     - row:
-      - id: id_type
-        label: "ID type (passport or ID card)"
-        size: s15
-        type: text
-        name: entry.1074044697
-        required: true
+      - label: "ID type:"
+        fields:
+        - id: id_passport
+          label: "Passport"
+          size: s15 m5
+          type: radio
+          name: entry.1074044697
+          checked: true
+        - id: id_card
+          label: "ID card"
+          size: s15 m5
+          type: radio
+          name: entry.1074044697
+          checked: false
       - id: id_number
-        size: s15
+        size: s15 m5
         label: "ID number"
         type: text
         name: entry.603835159
         required: true
       - id: id_issue
-        size: s15
+        size: s15 m5
         label: "ID place of issue"
         type: text
         name: entry.603835159
         required: true
     - row:
       - id: birth_date
-        size: s15
+        size: s15 m3
         label: "Date of birth"
         type: date
         name: entry.603835159
         required: true
       - id: nationality
-        size: s15
+        size: s15 m6
         label: "Nationality"
         type: text
         name: entry.603835159
         required: true
       - id: birth_place
-        size: s15
+        size: s15 m6
         label: "Place of birth"
         type: text
         name: entry.603835159
         required: true
     - row:
-      - id: gender
-        size: s15
-        label: "Gender"
-        type: text
-        name: entry.603835159
-        required: true
-    - row:
-      - id: room
-        size: s15
-        label: "Room preference"
-        type: text
-        name: entry.603835159
-        required: false
+      - label: "Sex:"
+        fields:
+        - id: sex_male
+          size: s15 m5
+          label: "Male"
+          type: radio
+          name: sex
+          checked: true
+        - id: sex_female
+          size: s15 m5
+          label: "Female"
+          type: radio
+          name: sex
+          checked: false
+      - label: "Room preference:"
+        fields:
+        - id: room_my_sex
+          size: s15
+          label: "My sex only"
+          type: radio
+          name: room
+          checked: true
+        - id: room_mixed
+          size: s15
+          label: "Mixed"
+          type: radio
+          name: room
+          required: false
     - row:
       - id: diet
-        size: s15
+        size: s15 m5
         label: "Diet"
         type: text
         name: entry.603835159
         required: false
-    - row:
       - id: allergies
-        size: s15
+        size: s15 m5
         label: "Allergies"
         type: text
         name: entry.603835159
         required: false
-    - row:
-      - id: disabilities
-        size: s15
-        label: "Disabilities"
+      - id: needs
+        size: s15 m5
+        label: "Special needs"
         type: text
         name: entry.603835159
         required: false
     - row:
-      - id: printed_program
-        size: s15
-        label: "Need for printed program? (Save trees: don't make us print it if not needed!)"
-        type: text
-        name: entry.603835159
-        required: true
+      - label: "Need printed program? (Save trees: don't make us print it if not needed!)"
+        fields:
+        - id: printed_program_yes
+          size: s15
+          label: "No"
+          type: radio
+          name: printed_program
+          checked: true
+        - id: printed_program_no
+          size: s15
+          label: "Yes"
+          type: radio
+          name: printed_program
+          checked: false
     - row:
-      - id: tshirt_size
-        size: s15
-        label: "T-shirt size"
-        type: text
-        name: entry.603835159
-        required: true
+      - label: "T-shirt size:"
+        fields:
+        - id: tshirt_size_xs
+          size: s15
+          label: "XS"
+          type: radio
+          name: tshirt
+          checked: false
+        - id: tshirt_size_s
+          size: s15
+          label: S
+          type: radio
+          name: tshirt
+          checked: false
+        - id: tshirt_size_m
+          size: s15
+          label: M
+          type: radio
+          name: tshirt
+          checked: true
+        - id: tshirt_size_l
+          size: s15
+          label: L
+          type: radio
+          name: tshirt
+          checked: false
+        - id: tshirt_size_xl
+          size: s15
+          label: XL
+          type: radio
+          name: tshirt
+          checked: false
+        - id: tshirt_size_xxl
+          size: s15
+          label: XXL
+          type: radio
+          name: tshirt
+          checked: false
     - row:
-      - id: arrival
-        size: s15
-        label: "Arrival point in Milan"
-        type: text
-        name: entry.603835159
-        required: true
+      - label: "Arrival point in Milan"
+        fields:
+        - id: arrival_lin
+          size: s15
+          label: LIN
+          type: radio
+          name: arrival
+          checked: true
+        - id: arrival_mxp
+          size: s15
+          label: MXP
+          type: radio
+          name: arrival
+          checked: false
+        - id: arrival_bgy
+          size: s15
+          label: BGY
+          type: radio
+          name: arrival
+          checked: false
+        - id: arrival_centrale
+          size: s15
+          label: "Centrale train station"
+          type: radio
+          name: arrival
+          checked: false
+        - id: arrival_garibaldi
+          size: s15
+          label: "Garibaldi train station"
+          type: radio
+          name: arrival
+          checked: false
+        - id: arrival_other
+          size: s15
+          label: Other
+          type: radio
+          name: arrival
+          checked: false
+        - id: arrival_other_text
+          size: s15
+          label: Other
+          type: text
+          name: arrival_other_text
+          conditioned: arrival_other
     - row:
       - id: last_transport
         size: s15
         label: "Last mean of transport at arrival"
         type: text
         name: entry.603835159
-        required: true
+        required: false
     - row:
       - id: preferences
         size: s15
-        label: "Arrival point in Milan"
+        label: "Multiple activities preference"
+        type: text
+        name: entry.603835159
+        required: false
+    - row:
+      - id: address
+        size: s15
+        label: "Address"
         type: text
         name: entry.603835159
         required: true
     - row:
-      - id: arrival
+      - id: agreement_picture
         size: s15
-        label: "Arrival point in Milan"
+        label: "I agree to give ... rights on rights on pictures"
+        type: checkbox
+        name: entry.603835159
+        required: true
+    - row:
+      - id: affiliation_type
+        size: s15
+        label: "Type of IAPS affiliation"
         type: text
         name: entry.603835159
         required: true
     - row:
-      - id: arrival
+      - label: "Partecipant or observer?"
+        fields:
+        - id: partecipation_type_observer
+          size: s15
+          label: Partecipant
+          type: radio
+          name: partecipation_type
+          checked: true
+        - id: partecipation_type_partecipant
+          size: s15
+          label: Observer
+          type: radio
+          name: partecipation_type
+          checked: false
+    - row:
+      - id: team_name
         size: s15
-        label: "Arrival point in Milan"
+        label: "Team name"
         type: text
         name: entry.603835159
-        required: true
-    - row:
-      - id: arrival
+        conditioned: partecipation_type_partecipant
+        required: false
+      - id: capitain
         size: s15
-        label: "Arrival point in Milan"
+        label: "I am the team capitain"
         type: text
         name: entry.603835159
-        required: true
+        conditioned: partecipation_type_partecipant
+        required: false
     - row:
-      - id: arrival
+      - id: lecture
         size: s15
-        label: "Arrival point in Milan"
-        type: text
+        label: "I will give a lecture"
+        type: checkbox
         name: entry.603835159
-        required: true
+        required: false
     - row:
-      - id: arrival
+      - id: poster
         size: s15
-        label: "Arrival point in Milan"
-        type: text
+        label: "I will present a poster"
+        type: checkbox
         name: entry.603835159
-        required: true
+        required: false
     - row:
-      - id: arrival
+      - id: notes
         size: s15
-        label: "Arrival point in Milan"
-        type: text
-        name: entry.603835159
-        required: true
-    - row:
-      - id: arrival
-        size: s15
-        label: "Arrival point in Milan"
-        type: text
-        name: entry.603835159
-        required: true
-    - row:
-      - id: arrival
-        size: s15
-        label: "Arrival point in Milan"
-        type: text
-        name: entry.603835159
-        required: true
-    - row:
-      - id: arrival
-        size: s15
-        label: "Arrival point in Milan"
-        type: text
-        name: entry.603835159
-        required: true
-    - row:
-      - id: arrival
-        size: s15
-        label: "Arrival point in Milan"
-        type: text
+        label: "Additional notes"
+        type: textarea
         name: entry.603835159
         required: true
     - row:
