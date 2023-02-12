@@ -259,5 +259,17 @@ jQuery('document').ready(function ($) {
     } else {
       $(".form-field[data-condition=" + $(this).prop("id") + "]").fadeOut();
     }
-  })
+  });
+  $("input[type='radio']").on("change", function () {
+    $("input[type=radio][name=" + $(this).prop("name").replace( /(:|\.|\[|\]|,|=)/g, "\\$1" ) + "]").each(function (index) {
+      if (this.checked) {
+        $(".form-field[data-condition=" + $(this).prop("id") + "]").fadeIn();
+      } else {
+        $(".form-field[data-condition=" + $(this).prop("id") + "]").fadeOut();
+      };
+    });
+  });
+  // Run all change listeners once, so that inputs checked ny default show their subfields.
+  $("input[type='checkbox']").change();
+  $("input[type='radio']").change();
 });

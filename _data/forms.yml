@@ -529,33 +529,32 @@ details:
     - row:
       - label: "Partecipant or observer?"
         fields:
-        - id: partecipation_type_observer
+        - id: partecipation_type_partecipant
           size: s15
           label: Partecipant
           type: radio
           name: partecipation_type
           checked: true
-        - id: partecipation_type_partecipant
+        - id: team_name
+          size: s5
+          label: "Team name"
+          type: text
+          name: entry.603835159
+          conditioned: partecipation_type_partecipant
+          required: false
+        - id: capitain
+          size: s5
+          label: "I am the team capitain"
+          type: text
+          name: entry.603835159
+          conditioned: partecipation_type_partecipant
+          required: false
+        - id: partecipation_type_observer
           size: s15
           label: Observer
           type: radio
           name: partecipation_type
           checked: false
-    - row:
-      - id: team_name
-        size: s15
-        label: "Team name"
-        type: text
-        name: entry.603835159
-        conditioned: partecipation_type_partecipant
-        required: false
-      - id: capitain
-        size: s15
-        label: "I am the team capitain"
-        type: text
-        name: entry.603835159
-        conditioned: partecipation_type_partecipant
-        required: false
     - row:
       - id: lecture
         size: s15
