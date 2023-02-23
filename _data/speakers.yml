@@ -8,14 +8,15 @@ In 2020 Pasquero won a grant from the European Space Energy for the project GLAU
    img: pasquero.jpg
    uni: Università degli Studi di Milano-Bicocca
    locked: false
- - name: Mr Y
-   date: Friday, 12<span class="super">th</span>
-   topic: Dark matter and dark energy, reconsidered.
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Alma Mater Studiorum Bologna
-   locked: true
+
+ - name: Marco Liscidini
+   #date: Friday, 12<span class="super">th</span>
+   #topic: Dark matter and dark energy, reconsidered.
+   biography: "Marco Liscidini is currently Associate Professor in Photonics at the Department of Physics of the University of Pavia and serves as technical advisor to Xanadu Quantum Technologies Inc, Toronto, Canada. He is member of the advisory council of the National Quantum Science and Technology Institute. His research activity is focused on the theoretical study and modelling of the light‐matter interaction in micro‐ and nanostructures.  He works in several areas of photonics, including quantum and classical nonlinear optics, plasmon and QW‐exciton polaritons, optical sensing, and photovoltaic effects (see also <a href=\"https://www.liscidini.com/\">his website</a>). He is Fellow of Optica (former Optical American Society)."
+   #abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
+   img: liscidini.jpg
+   uni: Università degli Studi di Pavia
+   locked: false
  - name: Mr C
    date: Friday, 12<span class="super">th</span>
    topic: Is quantum mechanics correct?
