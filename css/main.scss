@@ -176,7 +176,7 @@ nav.sidenav{
   @media #{$small-and-down} {
     display: flex;
     height: 2.5rem;
-    flex-direction: row;
+    flex-direction: r;
     justify-content: space-between;
     align-items: center;
     position: absolute;
@@ -1329,5 +1329,50 @@ h1.area-title{
   }
   &:first-of-type{
     margin-top: 3rem;
+  }
+}
+
+//Footer
+#page-footer{
+
+  background-color: $primary;
+  margin-top: 20px;
+  padding-top: 20px;
+
+  .footer-text{
+  	font-weight: 400;
+  	font-size: 1.1rem;
+  	color: #fff;
+  }
+  
+  .footer-title{
+  	font-weight: 500;
+  	font-size: 1.64rem;
+  	color: #fff;
+ 	line-height: 110%;
+  	margin: .82rem 0 .656rem 0;
+  }
+  
+  li{
+  	margin: .2rem 0;
+  }
+  
+  .footer-column{
+  	justify-content: center;
+  	align-content: center;
+  	display: grid;
+  }
+  
+  .footer-logo{
+  
+         img{
+           width: 9rem;
+           height: auto;
+           object-fit: cover;
+           background-color: #fff;
+          }
+  
+          padding: 0.5rem;
+          margin: 0 -0.5rem 0 -2rem;
   }
 }
