@@ -1,0 +1,38 @@
+---
+
+layout: default
+title: Collaborations
+
+---
+
+{% include title.html data=site.data.collaborations.title %}
+
+{% for area in site.data.collaborations.areas %}
+<h1 class="area-title">{{area.title}}</h1>
+<div id="organizing-committee" class="masonry-cards">
+  {% for person in area.people %}
+<div>
+  {% if person.president %}
+    {% assign class="secondary" %}
+  {% else %}
+    {% assign class="primary" %}
+  {% endif %}
+  <div class="card left-image {{class}}">
+      <div class="card-image">
+        <img src="{{site.url}}/img/organizing-committee/{{person.img}}" />
+      </div>
+      <div class="card-content">
+        <div class="card-title">
+          <h2>{{person.name}}</h2>
+        </div>
+        <div class="bio">
+          {{person.bio}}
+        </div>
+      </div>
+  </div>
+</div>
+
+  {% endfor %}
+</div>
+
+{% endfor %}

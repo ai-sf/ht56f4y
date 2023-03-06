@@ -42,6 +42,7 @@ html{
   height: 100%;
   overflow-x: hidden;
 }
+
 body {
   background-color: $background;
   position: relative;
@@ -672,11 +673,21 @@ nav.sidenav{
   p{
     font-size: clamp(1.2rem, 3vw, 1.5rem);
     line-height: clamp(2rem, 5vw, 2.4rem);
-    text-align: center;
+    text-align: left;
+    font-weight: 500;
+    @media #{$small-and-down}{
+      text-align: right;
+    }
+  }
+  
+  li{
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    line-height: clamp(2rem, 5vw, 2.4rem);
     font-weight: 500;
     @media #{$small-and-down}{
       text-align: justify;
     }
+    list-style: inside;
   }
 }
 
