@@ -9,30 +9,21 @@ title: Collaborations
 
 {% for area in site.data.collaborations.areas %}
 <h1 class="area-title">{{area.title}}</h1>
-<div id="organizing-committee" class="masonry-cards">
-  {% for person in area.people %}
-<div>
-  {% if person.president %}
-    {% assign class="secondary" %}
-  {% else %}
-    {% assign class="primary" %}
-  {% endif %}
-  <div class="card left-image {{class}}">
-      <div class="card-image">
-        <img src="{{site.url}}/img/organizing-committee/{{person.img}}" />
-      </div>
-      <div class="card-content">
-        <div class="card-title">
-          <h2>{{person.name}}</h2>
+<div id="collaborations" class="sponsor-cards">
+{% for sponsor in area.sponsors %}
+<div class="card left-image primary">
+	{% if sponsor.height %}
+		{% assign h=sponsor.height %}
+	{% else %}
+		{% assign h="10rem" %}
+	{% endif %}
+	<div class="card-image" style="--img_height: {{h}}">
+        	<img src="{{site.url}}/img/collaborations/{{sponsor.logo}}" width=auto />
         </div>
-        <div class="bio">
-          {{person.bio}}
+        <div class="card-content">
+        <div class="card-title"> <h2><a href={{sponsor.url}}>{{sponsor.name}}</a></h2> </div>
         </div>
-      </div>
-  </div>
 </div>
-
-  {% endfor %}
+{% endfor %}
 </div>
-
 {% endfor %}

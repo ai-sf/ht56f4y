@@ -17,14 +17,16 @@ In 2020 Pasquero won a grant from the European Space Energy for the project GLAU
    img: liscidini.jpg
    uni: Università degli Studi di Pavia
    locked: false
- - name: Mr C
-   date: Friday, 12<span class="super">th</span>
-   topic: Is quantum mechanics correct?
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Università degli Studi di Milano, Dipartimento di Matematica
-   locked: true
+   
+ - name: Didier Queloz
+   #date: Friday, 12<span class="super">th</span>
+   #topic: Is quantum mechanics correct?
+   biography: "Didier Queloz is a professor of physics at the University of Cambridge’s Cavendish Laboratory and professor of astronomy at ETH Zurich and director of the ETH Centre for Origin and  Prevalence of Life. He is one of the originators of the “exoplanet revolution” in astrophysics. In 1995, as part of his PhD, his team announced the first discovery of a giant planet orbiting another star, outside the solar system, a discovery which led him and his colleague Micheal Mayor to obtain the Nobel Prize in Physics. This seminal discovery spawned a revolution in astronomy and kickstarted the research field of exoplanet systems. Over the next 25 years, Didier Queloz’s main scientific contributions have essentially focused on expanding the detection and measurement capabilities of these systems to retrieve information on their physical structure."
+   #abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
+   img: queloz.jpeg
+   uni: ETH Zurich, University of Cambridge
+   locked: false
+   
  - name: Mr X
    date: Friday, 12<span class="super">th</span>
    topic: "Newton's Principia Mathematica: an introduction."
