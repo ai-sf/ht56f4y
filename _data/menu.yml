@@ -27,9 +27,9 @@
   - text: Observers
     url: "/observers"
     icon: "visibility"
-  - text: "Collaborations"
-    url: "/collaborations"
-    icon: ""
+#  - text: "Collaborations"
+#    url: "/collaborations"
+#    icon: "handshake"
 #  - text: "Confirmation"
 #    url: "/confirmation"
 #    icon: "border_color"
