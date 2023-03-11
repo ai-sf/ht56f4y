@@ -4,9 +4,6 @@ areas:
    - name: "Università degli Studi di Milano"
      url: "https://www.unimi.it/en"
      logo: "unimi.png"
-   - name: "International Union of Pure and Applied Physics"
-     url: "https://iupap.org/"
-     logo: "iupap.png"
    - name: "Società Italiana di Fisica"
      url: "https://www.sif.it/"
      logo: "sif.png"
@@ -17,4 +14,18 @@ areas:
      url: "https://iaga-aiga.org/"
      logo: "iaga.jpg"
      height: 7.5rem
-     
+   - name: "Comune di Milano"
+     url: "https://www.comune.milano.it/"
+     logo: "milano.jpg"
+
+ - title: "Sponsorships"
+   sponsors:
+   - name: "International Union of Pure and Applied Physics"
+     url: "https://iupap.org/"
+     logo: "iupap.png"   
+
+ - title: "Techical sponsorships"
+   sponsors:
+   - name: "101 Caffè"
+     url: "https://www.101caffe.it/"
+     logo: "101caffe.jpg"
