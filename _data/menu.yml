@@ -33,6 +33,9 @@
 #  - text: "Confirmation"
 #    url: "/confirmation"
 #    icon: "border_color"
+  - text: Locations
+    url: "/locations"
+    icon: "location_on"
 - nav-zone:
   - text: FAQ
     url: "/faq"

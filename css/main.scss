@@ -1343,6 +1343,8 @@ h1.area-title{
   }
 }
 
+//Sponsors
+
 .sponsor-cards{
   columns: 1;
   column-gap: 0rem;
@@ -1390,7 +1392,6 @@ h1.area-title{
     }
   }
 }
-
 
 //Footer
 #page-footer{
@@ -1444,3 +1445,84 @@ h1.area-title{
   	}
   }
 }
+
+//Location cards
+
+.location-cards{
+  columns: 1;
+  column-gap: 0rem;
+  margin-top: 2rem;
+
+  @media #{$large-and-up}{
+    columns: 1;
+  }
+
+  .card{
+    @extend .z-depth-2;
+    margin: 0rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    @media #{$medium-and-down}{
+      flex-direction: column;
+    }
+    -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+    gap: 2.2rem;
+    
+    .card-image{
+      img{
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+      }
+    }
+
+    .card-header{
+
+        text-align: left;
+        font-family:"Montserrat";
+        margin-bottom: 2rem;
+        color: #fff;
+        padding: 4px 15px;
+        padding: 3rem 0 0rem -3rem;
+        vertical-align: middle;
+        background-color: $primary !important;
+        color: $on-primary !important;
+        @extend .border-radius;
+        
+      .card-title{
+	h2{
+      		font-weight: 500;
+      		font-size: 1.6rem;
+      		margin-top: 2rem;
+      		margin-bottom: 2rem;
+      		margin-left: 4rem;
+	}      	
+      }
+      
+      .card-subtitle{
+      	h2{
+      		font-weight: 200;
+      		font-size: 1.3rem;
+      		margin-left: 4rem;
+      	}
+      }
+      
+      a{
+      		color: #fff;
+      }
+     
+    }
+    
+    .card-content{
+        background-color: $primary-container  !important;
+        color: $on-primary-container;
+        
+        p{
+        	font-size: 1.1rem;
+        }
+    }
+  }
+}
+

@@ -1,0 +1,41 @@
+---
+
+layout: default
+title: Locations
+
+---
+
+{% include title.html data=site.data.locations.title %}
+
+{% for section in site.data.locations.sections %}
+<h1 class="area-title">{{section.title}}</h1>
+<div id="locations" class="location-cards">
+{% for place in section.places %}
+<div class="card primary">
+	<div class="card-header">
+		<div class="row">
+			<div class="col l2 s12">
+				<div class="card-image">
+        				<img src="{{site.url}}/img/locations/{{place.image}}" />
+        			</div>	
+    			</div>
+    		
+    			<div class="col l13 s12">
+        			<div class="card-title"> <h2>{{place.name}}</h2> </div>        	
+        			<div class="card-subtitle"> 
+        			<h2>
+        				<i class="material-symbols-outlined">location_on</i>
+        				<a href={{place.link}}> {{place.address}} </a>
+        			</h2> 
+        			</div>
+        		</div>
+        	</div>
+        </div>
+
+        <div class="card-content">
+        	<p> {{place.description}} </p>
+	</div>
+</div>
+{% endfor %}
+</div>
+{% endfor %}
