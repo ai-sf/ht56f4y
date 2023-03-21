@@ -12,9 +12,6 @@
   - text: Speakers
     url: "/speakers"
     icon: mic_external_on
-#  - text: Sponsors
-#    url: "/sponsors"
-#    icon: sell
   - text: Road to Milan
     url: "/preliminaries"
     icon: flight
@@ -27,15 +24,15 @@
   - text: Observers
     url: "/observers"
     icon: "visibility"
-#  - text: "Collaborations"
-#    url: "/collaborations"
-#    icon: "handshake"
-#  - text: "Confirmation"
-#    url: "/confirmation"
-#    icon: "border_color"
   - text: Locations
     url: "/locations"
     icon: "location_on"
+  - text: Supporters
+    url: "/collaborations"
+    icon: handshake
+#  - text: "Confirmation"
+#    url: "/confirmation"
+#    icon: "border_color"
 - nav-zone:
   - text: FAQ
     url: "/faq"

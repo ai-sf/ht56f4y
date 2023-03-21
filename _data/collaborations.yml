@@ -1,15 +1,15 @@
 areas:
- - title: "Sponsorships"
-   sponsors:
-   - name: "Fondazione Bracco"
-     url: "https://www.fondazionebracco.com/"
-     logo: "bracco.png"
-     height: 5rem;
- - title: "Partners"
-   sponsors:
-   - name: "IBM Studios Milano"
-     url: "https://www.ibm.com/easytools/runtime/hspx/prod/public/X0027/PortalX/page/pageTemplate?s=72fb24681f2b473dad6b32d6c3146164&c=72fb24681f2b473dad6b32d6c3146164"
-     logo: "ibm.png"
+# - title: "Sponsorships"
+#   sponsors:
+#   - name: "Fondazione Bracco"
+#     url: "https://www.fondazionebracco.com/"
+#     logo: "bracco.png"
+#     height: 5rem;
+# - title: "Partners"
+#   sponsors:
+#   - name: "IBM Studios Milano"
+#     url: "https://www.ibm.com/easytools/runtime/hspx/prod/public/X0027/PortalX/page/pageTemplate?s=72fb24681f2b473dad6b32d6c3146164&c=72fb24681f2b473dad6b32d6c3146164"
+#     logo: "ibm.png"
  - title: "Collaborations"
    sponsors:
 #   - name: "Università degli Studi di Milano"
@@ -28,7 +28,6 @@ areas:
      url: "https://iaga-aiga.org/"
      logo: "iaga.jpg"
      height: 7.5rem
-     
  - title: "Techical sponsorships"
    sponsors:
    - name: "101 Caffè"
