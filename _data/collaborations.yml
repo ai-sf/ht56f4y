@@ -1,22 +1,26 @@
 areas:
+ - title: "Sponsorships"
+   sponsors:
+   - name: "Fondazione Bracco"
+     url: "https://www.fondazionebracco.com/"
+     logo: "bracco.png"
+     height: 5rem;
+ - title: "Partners"
+   sponsors:
+   - name: "IBM Studios Milano"
+     url: "https://www.ibm.com/easytools/runtime/hspx/prod/public/X0027/PortalX/page/pageTemplate?s=72fb24681f2b473dad6b32d6c3146164&c=72fb24681f2b473dad6b32d6c3146164"
+     logo: "ibm.png"
  - title: "Collaborations"
    sponsors:
-   - name: "Comune di Milano"
-     url: "https://www.comune.milano.it/"
-     logo: "milano.jpg"
-     height: 12.1rem
-   - name: "Università degli Studi di Milano"
-     url: "https://www.unimi.it/en"
-     logo: "unimi.png"
+#   - name: "Università degli Studi di Milano"
+#     url: "https://www.unimi.it/en"
+#     logo: "unimi.png"
    - name: "Società Italiana di Fisica"
      url: "https://www.sif.it/"
      logo: "sif.png"
    - name: "Società Italiana di Ottica e Fotonica"
      url: "https://www.siof-ottica.it"
      logo: "siof.png"
-
- - title: "Sponsorships"
-   sponsors:
    - name: "International Union of Pure and Applied Physics"
      url: "https://iupap.org/"
      logo: "iupap.png"   
@@ -30,3 +34,9 @@ areas:
    - name: "101 Caffè"
      url: "https://www.101caffe.it/"
      logo: "101caffe.jpg"
+ - title: "Patronages"
+   sponsors:
+   - name: "Comune di Milano"
+     url: "https://www.comune.milano.it/"
+     logo: "milano.jpg"
+     height: 12.1rem

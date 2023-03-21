@@ -1427,16 +1427,15 @@ h1.area-title{
   .footer-logo{
   
          img{
-           width: 9rem;
+           width: 15rem;
            height: auto;
            object-fit: cover;
-           background-color: #fff;
           }
   
-          padding: 0.5rem;
-          margin: 0 -0.5rem 0 -2rem;
+          margin-top: 5rem;
+          align-content: center;
   }
-  
+
   .footer-icon{
   	img{
   	  width: 25px;
@@ -1506,6 +1505,9 @@ h1.area-title{
       		font-weight: 200;
       		font-size: 1.3rem;
       		margin-left: 4rem;
+      	}
+      	img{
+      		vertical-align: middle;
       	}
       }
       
