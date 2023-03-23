@@ -1349,7 +1349,8 @@ h1.area-title{
   columns: 1;
   column-gap: 0rem;
   margin-top: 2rem;
-
+  display: block;
+  
   @media #{$large-and-up}{
     columns: 3;
   }
@@ -1362,6 +1363,7 @@ h1.area-title{
     @media #{$medium-and-down}{
       flex-direction: column;
     }
+
     -webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;

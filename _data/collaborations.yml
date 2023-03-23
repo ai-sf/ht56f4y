@@ -1,10 +1,10 @@
 areas:
-# - title: "Sponsorships"
-#   sponsors:
-#   - name: "Fondazione Bracco"
-#     url: "https://www.fondazionebracco.com/"
-#     logo: "bracco.png"
-#     height: 5rem;
+ - title: "Sponsorships"
+   sponsors:
+   - name: "Fondazione Bracco"
+     url: "https://www.fondazionebracco.com/"
+     logo: "bracco.png"
+     height: 5rem
 # - title: "Partners"
 #   sponsors:
 #   - name: "IBM Studios Milano"
@@ -15,15 +15,16 @@ areas:
 #   - name: "Università degli Studi di Milano"
 #     url: "https://www.unimi.it/en"
 #     logo: "unimi.png"
+   - name: "International Union of Pure and Applied Physics"
+     url: "https://iupap.org/"
+     logo: "iupap.png"   
+     height: 7.5rem
    - name: "Società Italiana di Fisica"
      url: "https://www.sif.it/"
      logo: "sif.png"
    - name: "Società Italiana di Ottica e Fotonica"
      url: "https://www.siof-ottica.it"
      logo: "siof.png"
-   - name: "International Union of Pure and Applied Physics"
-     url: "https://iupap.org/"
-     logo: "iupap.png"   
    - name: "International Association of Geomagnetism and Aeronomy"
      url: "https://iaga-aiga.org/"
      logo: "iaga.jpg"
@@ -39,3 +40,6 @@ areas:
      url: "https://www.comune.milano.it/"
      logo: "milano.jpg"
      height: 12.1rem
+   - name: "European Optical Society"
+     url: "https://www.europeanoptics.org/"
+     logo: "eos.png"
