@@ -81,7 +81,7 @@ confirmation:
         info: "Insert the names of the first teams (as many as admitted to the competition for your committee) from first to last, following the syntax of the hint."
         type: textarea
         name: entry.492904529
-        placeholder: "winning team: person 1, person 2, person 3; second team: person 1, person 2, person 3; third team: person 1, person 2, person 3; ..."
+        placeholder: "winning team name: person 1, person 2, person 3; second team name: person 1, person 2, person 3; third team name: person 1, person 2, person 3; ..."
         required: true
     - row:
       - id: notes
