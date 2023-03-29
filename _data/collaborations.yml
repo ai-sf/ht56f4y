@@ -5,10 +5,10 @@ areas:
      url: "https://www.fondazionebracco.com/"
      logo: "bracco.png"
      height: 5rem
-   - name: "Centro Elettronico Sperimentale Italiano"
-     url: "https://www.cesi.it/"
-     logo: "cesi.png"
-     height: 6rem
+#   - name: "Centro Elettronico Sperimentale Italiano"
+#     url: "https://www.cesi.it/"
+#     logo: "cesi.png"
+#     height: 6rem
 #   - name: "Istituto Nazionale di Ricerca Metrologica"
 #     url: "https://www.inrim.it/en"
 #     logo: "inrim.png"
