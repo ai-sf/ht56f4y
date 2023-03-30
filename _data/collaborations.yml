@@ -5,7 +5,7 @@ areas:
      url: "https://www.fondazionebracco.com/"
      logo: "bracco.png"
      height: 5rem
-#   - name: "Centro Elettronico Sperimentale Italiano"
+#   - name: "Centro Elettrotecnico Sperimentale Italiano"
 #     url: "https://www.cesi.it/"
 #     logo: "cesi.png"
 #     height: 6rem
@@ -39,7 +39,7 @@ areas:
      height: 7.5rem
  - title: "Techical sponsorships"
    sponsors:
-   - name: "101 Caffè"
+   - name: "101CAFFE'"
      url: "https://www.101caffe.it/"
      logo: "101caffe.jpg"
  - title: "Patronages"

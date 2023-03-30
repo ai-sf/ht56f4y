@@ -1420,22 +1420,18 @@ h1.area-title{
   	margin: .5rem 0;
   }
   
-  .footer-column{
+  .footer-logo{
+  
   	justify-content: center;
   	align-content: center;
   	display: grid;
-  }
-  
-  .footer-logo{
   
          img{
            width: 15rem;
            height: auto;
            object-fit: cover;
+           margin-right: 8rem;
           }
-  
-          margin-top: 5rem;
-          align-content: center;
   }
 
   .footer-icon{
