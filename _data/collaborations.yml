@@ -48,6 +48,10 @@ areas:
      url: "https://www.comune.milano.it/"
      logo: "milano.jpg"
      height: 12.1rem
+   - name: "Associazione per l'Insegnamento della Fisica"
+     url: "https://www.aif.it/"
+     logo: "aif.png"
+     height: 6.8rem
    - name: "European Optical Society"
      url: "https://www.europeanoptics.org/"
      logo: "eos.png"
