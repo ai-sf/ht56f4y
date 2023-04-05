@@ -9,15 +9,16 @@ areas:
 #     url: "https://www.cesi.it/"
 #     logo: "cesi.png"
 #     height: 6rem
-#   - name: "Istituto Nazionale di Ricerca Metrologica"
-#     url: "https://www.inrim.it/en"
-#     logo: "inrim.png"
-#     height: 6rem
+   - name: "Istituto Nazionale di Ricerca Metrologica"
+     url: "https://www.inrim.it/en"
+     logo: "inrim.png"
+     height: 6rem
 # - title: "Partners"
 #   sponsors:
 #   - name: "IBM Studios Milano"
 #     url: "https://www.ibm.com/easytools/runtime/hspx/prod/public/X0027/PortalX/page/pageTemplate?s=72fb24681f2b473dad6b32d6c3146164&c=72fb24681f2b473dad6b32d6c3146164"
-#     logo: "ibm.png"
+#     logo: "ibm_2.jpg"
+#     height: 9rem
  - title: "Collaborations"
    sponsors:
 #   - name: "Università degli Studi di Milano"
