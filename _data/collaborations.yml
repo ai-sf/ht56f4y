@@ -13,12 +13,14 @@ areas:
      url: "https://www.inrim.it/en"
      logo: "inrim.png"
      height: 6rem
+#   - name: "ABB"
+#     url: "https://new.abb.com/it"
+#     logo: "abb.png"
+#     height: 6rem
 # - title: "Partners"
 #   sponsors:
-#   - name: "IBM Studios Milano"
-#     url: "https://www.ibm.com/easytools/runtime/hspx/prod/public/X0027/PortalX/page/pageTemplate?s=72fb24681f2b473dad6b32d6c3146164&c=72fb24681f2b473dad6b32d6c3146164"
-#     logo: "ibm_2.jpg"
-#     height: 9rem
+#   - logo: "ibm_2.jpg"
+#     height: 10rem
  - title: "Collaborations"
    sponsors:
 #   - name: "Università degli Studi di Milano"
@@ -56,3 +58,11 @@ areas:
    - name: "European Optical Society"
      url: "https://www.europeanoptics.org/"
      logo: "eos.png"
+#   - name: "Istituto Lombardo Accademia di Scienze e Lettere"
+#     height: 10rem
+#     url: "https://www.istitutolombardo.it/"
+#     logo: "istituto_lombardo_3.png"
+#   - name: "Istituto Nazionale di Astrofisica"
+#     url: "http://www.inaf.it/it"
+#     logo: "inaf.png"
+#     height: 11rem

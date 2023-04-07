@@ -20,9 +20,11 @@ title: Supporters
 	<div class="card-image" style="--img_height: {{h}}">
         	<img src="{{site.url}}/img/collaborations/{{sponsor.logo}}" width=auto />
         </div>
-        <div class="card-content">
-        <div class="card-title"> <h2><a href={{sponsor.url}}>{{sponsor.name}}</a></h2> </div>
-        </div>
+        {% if sponsor.name %}
+	        <div class="card-content">
+       	 <div class="card-title"> <h2><a href={{sponsor.url}}>{{sponsor.name}}</a></h2> </div>
+        	</div>
+        {% endif %}
 </div>
 {% endfor %}
 </div>
