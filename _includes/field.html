@@ -5,6 +5,12 @@
       <input class="form-field-text" placeholder=" " type="{{include.data.type}}" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
   {% elsif include.data.type == "radio" %}
       <input class="form-field-radio" placeholder=" " type="radio" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.checked == true %} checked {% endif %} />
+  {% elsif include.data.type == "select" %}
+      <select class="form-field-select" placeholder=" " type="{{include.data.type}}" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}">
+      {% for item in include.data.options %}
+      <option> {{item}} </option>
+      {% endfor %}
+      </select>
   {% else %}
       <input type="{{include.data.type}}" placeholder=" " id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
   {% endif %}
