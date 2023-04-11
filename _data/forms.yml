@@ -256,7 +256,7 @@ partecipants:
 
 details:
     id: details
-    action: "https://docs.google.com/forms/u/0/d/e/1FAIpQLSe-YGAa6NG_kllo8Yy2g8g0aueRvq3hVg14fkS75WTePo_PCw/formResponse"
+    action: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSez2dEa3hAtddeCjA_AcN4KXlIJ5IFjVkyKctU2EjlV6ndNfQ/formResponse"
     submit: Submit
     fields:
     - row:
@@ -265,81 +265,83 @@ details:
         size: s15
         label: "Name and Surname in latin alphabet"
         type: text
-        name: entry.1798647217
+        name: entry.1435602901
         required: true
     - row:
       - id: name_alphabet
         size: s15 m8
         label: "Name in your alphabet"
         type: text
-        name: entry.1798647217
+        name: entry.1592715204
         required: false
       - id: name_phonetic
         size: s15 m7
         label: "Name in phonetic alphabet"
         type: text
-        name: entry.1798647217
+        name: entry.463212478
         required: false
     - row:
       - id: birth_date
         size: s15 m3
         label: "Date of birth"
         type: date
-        name: entry.603835159
+        name: entry.1637502163
         required: true
       - id: birth_place
         size: s15 m6
         label: "Place of birth"
         type: text
-        name: entry.603835159
+        name: entry.374120097
         required: true
       - id: nationality
         size: s15 m6
         label: "Nationality"
         type: text
-        name: entry.603835159
+        name: entry.523218801
         required: true
     - row:
       - id: iaps_affiliation
         size: s15 m15
         type: text
         label: "Type of IAPS affiliation (NC / LC / IM) followed by the country (e.g. NC India)"
-        name: entry.iaps
+        name: entry.1857496253
         required: true
     - row:
       - section_title: "Role"
-        label: "Participant or observer?"
+        label: "Partecipant or observer?"
         fields:
         - id: participant
           type: radio
-          label: "Participant"
+          label: "Partecipant"
+          value: partecipant
           checked: true
-          name: entry.role
+          name: entry.332830004
         - id: observer
           type: radio
           label: "Observer"
+          value: observer
           checked: false
-          name: entry.role
+          name: entry.332830004
         - id: team_name
           type: text
           size: s15 m7
           label: "Team name"
           required: true
-          name: entry.team_name
+          name: entry.776975050
           conditioned: participant
         - id: capitain
           type: checkbox
           checked: false
           required: true
           label: "I am the team capitain"
-          name: entry.capitain
+          name: entry.162906292
           conditioned: participant   
     - row:
       - section_title: "Information for the hostels"
-        id: nationality
+        id: nationality_short
         type: text
         size: s15 m5
-        name: entry.nationality
+        name: entry.513378973
         label: "Nationality (2 letters)"
         required: true
     - row:
@@ -347,15 +349,17 @@ details:
         fields:
         - id: id_passport
           label: "Passport"
+          value: passport
           size: s15 m5
           type: radio
-          name: entry.1074044697
+          name: entry.270602254
           checked: true
         - id: id_card
           label: "ID card"
+          value: id_card
           size: s15 m5
           type: radio
-          name: entry.1074044697
+          name: entry.270602254
           checked: false
     - row:
       - id: id_number
@@ -363,31 +367,31 @@ details:
         label: "ID number"
         type: text
         required: true
-        name: entry.id_number
+        name: entry.202611685
       - id: id_issue_date
         site: s15 m8
         label: "ID date of issue"
         type: date
-        name: entry.id_issue_date
+        name: entry.781629397
         required: true
       - id: id_expiration
         size: s15 m3
         label: "ID expiration date"
         type: date
-        name: entry.id_expiration_date
+        name: entry.210966025
         required: true
     - row:
       - id: id_country
         size: s15 m6
         label: "ID Country (2 letters)"
         type: text
-        name: entry.603835159
+        name: entry.697579343
         required: true
       - id: id_issue
         size: s15 m6
         label: "ID place of issue"
         type: text
-        name: entry.603835159
+        name: entry.135315384
         required: true
     - row:
       - label: "Sex"
@@ -395,12 +399,14 @@ details:
         fields:
         - id: male
           type: radio
-          name: entry.sex
+          name: entry.1759673614
+          value: M
           label: "M"
           checked: false
         - id: female
           type: radio
-          name: entry.sex
+          name: entry.1759673614
+          value: F
           label: "F"
           checked: true
       - label: "Room preference"
@@ -408,12 +414,14 @@ details:
         fields:
         - id: my_gender_only
           type: radio
-          name: entry.room
+          name: entry.545009603
+          value: my_gender_only
           label: "My gender only"
           checked: false
         - id: mixed
           type: radio
-          name: entry.room
+          value: mixed
+          name: entry.545009603
           label: "Mixed"
           checked: true  
     - row:
@@ -422,19 +430,19 @@ details:
         size: s15 m10
         label: "Personal e-mail address"
         type: text
-        name: entry.email
+        name: entry.483647581
         required: true
       - id: phone
         size: s15 m5
         label: "Phone number (with prefix)"
         type: text
-        name: entry.phone
+        name: entry.201734561
         required: true
       - id: home_address
         size: s15 m15
         label: "Home address"
         type: text
-        name: entry.address
+        name: entry.1374626515
         required: true
     - row:
       - section_title: "Information for the event"
@@ -442,19 +450,19 @@ details:
         size: s15
         label: "I will give a lecture"
         type: checkbox
-        name: entry.lecture
+        name: entry.1776467068
         required: true
       - id: lecture_title
         label: "Lecture title"
         type: text
-        name: entry.lecture_title
+        name: entry.926077361
         size: s15 m10
         conditioned: lecture
         required: true
       - id: lecture_abstract
         label: "Lecture abstract"
         type: text
-        name: entry.lecture_abstract
+        name: entry.995382628
         conditioned: lecture
         type: textarea
         size: s15 m10
@@ -464,19 +472,19 @@ details:
         size: s15
         label: "I will present a poster"
         type: checkbox
-        name: entry.poster
+        name: entry.23589590
         required: true
       - id: poster_title
         label: "Poster title"
         type: text
-        name: entry.poster_title
+        name: entry.1694535645
         size: s15 m10
         conditioned: poster
         required: true
       - id: poster_abstract
         label: "Poster abstract"
         type: text
-        name: entry.poster_abstract
+        name: entry.714786270
         conditioned: poster
         type: textarea
         size: s15 m10
@@ -489,7 +497,7 @@ details:
           label: "Your First Choice"
           size: s15 m8
           type: select
-          name: entry.1074044697
+          name: entry.570387281
           options:
           - "LAB1"
           - "LAB2"
@@ -504,7 +512,7 @@ details:
           label: "Your Second Choice"
           size: s15 m8
           type: select
-          name: entry.1074044697
+          name: entry.1913386706
           options:
           - "LAB1"
           - "LAB2"
@@ -519,7 +527,7 @@ details:
           label: "Your Third Choice"
           size: s15 m8
           type: select
-          name: entry.1074044697
+          name: entry.1393483066
           options:
           - "LAB1"
           - "LAB2"
@@ -537,7 +545,7 @@ details:
           label: "Your First Choice"
           size: s15 m8
           type: select
-          name: entry.1074044697
+          name: entry.563581422
           options:
           - "WOR1"
           - "WOR2"
@@ -550,7 +558,7 @@ details:
           label: "Your Second Choice"
           size: s15 m8
           type: select
-          name: entry.1074044697
+          name: entry.419717547
           options:
           - "WOR1"
           - "WOR2"
@@ -563,7 +571,7 @@ details:
           label: "Your Third Choice"
           size: s15 m8
           type: select
-          name: entry.1074044697
+          name: entry.1039592912
           options:
           - "WOR1"
           - "WOR2"
@@ -583,28 +591,32 @@ details:
         - id: diet_omnivorous
           type: radio
           label: "Omnivorous"
-          name: entry.diet
+          name: entry.1582497820
+          value: omnivorous
           checked: true
         - id: diet_vegetarian
           type: radio
           label: "Vegetarian"
-          name: entry.diet
+          name: entry.1582497820
+          value: vegetarian
           checked: false
         - id: diet_vegan
           type: radio
           label: "Vegan"
-          name: entry.diet
+          name: entry.1582497820
+          value: vegan
           checked: false
         - id: diet_other
           type: radio
           label: "Other"
-          name: entry.diet
+          name: entry.1582497820
+          value: other
           checked: false
         - id: diet_other_text
           type: text
           size: s15 m6
           label: "Specify here"
-          name: entry.diet_other
+          name: entry.1875668673
           conditioned: diet_other
       - label: "Do you have any food intolerances/allergies?"
         required: true
@@ -612,25 +624,27 @@ details:
           - id: intolerances_no
             type: radio
             label: "No"
-            name: entry.intolerances
+            name: entry.1870311330
+            value: no
             checked: true
           - id: intolerances_yes
             type: radio
             label: "Yes"
-            name: entry.intolerances
+            name: entry.1870311330
+            value: yes
             checked: false
           - id: intolerances_text
             type: text
             size: s15 m6
             label: "Specify here"
             conditioned: intolerances_yes
-            name: entry.intolerances_text
+            name: entry.1812571379
     - row:
       - id: disabilities
         label: "Special needs / disabilities (if any)"
         type: textarea
         size: s15 m10
-        name: entry.disabilities
+        name: entry.537395212
     - row:
       - label: "Need printed program? (Save trees: don't make us print it if not needed!)"
         fields:
@@ -638,20 +652,22 @@ details:
           size: s15
           label: "No"
           type: radio
-          name: printed_program
+          name: entry.1275490331
+          value: no
           checked: true
         - id: printed_program_no
           size: s15
           label: "Yes"
           type: radio
-          name: printed_program
+          name: entry.1275490331
+          value: yes
           checked: false
     - row:
       - label: "T-shirt size:"
         fields:
         - id: tshirt_sizes
           type: select
-          name: entry.tshirt
+          name: entry.1415633329
           options:
           - "XS"
           - "S"
@@ -666,66 +682,74 @@ details:
           size: s15
           label: LIN
           type: radio
-          name: arrival
+          name: entry.1360666070
+          value: lin
           checked: true
         - id: arrival_mxp
           size: s15
           label: MXP
           type: radio
-          name: arrival
+          name: entry.1360666070
+          value: mxp
           checked: false
         - id: arrival_bgy
           size: s15
           label: BGY
           type: radio
-          name: arrival
+          name: entry.1360666070
+          value: bgy
           checked: false
         - id: arrival_centrale
           size: s15
           label: "Centrale train station"
           type: radio
-          name: arrival
+          name: entry.1360666070
+          value: centrale
           checked: false
         - id: arrival_garibaldi
           size: s15
           label: "Garibaldi train station"
           type: radio
-          name: arrival
+          name: entry.1360666070
+          value: garibaldi
           checked: false
         - id: arrival_other
           size: s15
           label: Other
           type: radio
-          name: arrival
+          name: entry.1360666070
+          value: other
           checked: false
         - id: arrival_other_text
           size: s15
           label: Other
           type: text
-          name: arrival_other_text
+          name: entry.141265469
           conditioned: arrival_other
     - row:
       - id: last_transport
         size: s15
         label: "Last mean of transport at arrival (flight/train number)"
         type: text
-        name: entry.603835159
+        name: entry.1303549610
         required: true
     - row:
       - label: "Need for extra nights before the event?"
         fields:
         - id: no_extra_nights_before
-          name: entry.extra_nights_before
+          name: entry.1637749767
+          value: no
           type: radio
           label: "No"
           checked: true
         - id: extra_nights_before
-          name: entry.extra_nights_before
+          name: entry.1637749767
+          value: yes
           type: radio
           label: "Yes"
           checked: false
         - id: extra_nights_before_text
-          name: entry.extra_nights_before_text
+          name: entry.65586616
           type: text
           label: "How many?"
           conditioned: extra_nights_before
@@ -733,17 +757,19 @@ details:
       - label: "Need for extra nights after the event?"
         fields:
         - id: no_extra_nights_after
-          name: entry.extra_nights_after
+          name: entry.1768371419
+          value: no
           type: radio
           label: "No"
           checked: true
         - id: extra_nights_after
-          name: entry.extra_nights_after
+          name: entry.1768371419
+          value: yes
           type: radio
           label: "Yes"
           checked: false
         - id: extra_nights_after_text
-          name: entry.extra_nights_after_text
+          name: entry.381620793
           type: text
           label: "How many?"
           conditioned: extra_nights_after
@@ -752,18 +778,18 @@ details:
         size: s15
         label: "Additional notes"
         type: textarea
-        name: entry.603835159
+        name: entry.1061143149
         required: false
     - row:
       - id: agreement_picture
         size: s15
         label: "I agree to give rights on pictures"
         type: checkbox
-        name: entry.603835159
+        name: entry.1842877286
         required: false
       - id: gdpr
         size: s15 m12
         label: "I hereby consent to the processing of the personal data I provided in this form, in agreement with the data protection regulations in the <a href='http://ai-sf.it/Informativa_Privacy_AISF.pdf'>data privacy statement</a> within the means of General Data Protection Regulation (GDPR) of European Union and art. 13 D.Lgs. 196/2003 (compulsory)*"
         type: checkbox
-        name: entry.1690712167
+        name: entry.60571315
         value: I agree
