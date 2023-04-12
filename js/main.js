@@ -189,8 +189,8 @@ $(document).ready(function () {
   $("form").on("submit", function(e){
     e.preventDefault();
     data = $(this).serialize();
-    if ($("input[name='entry.1798647217']", this).length > 0) {
-      var value = $("input[name='entry.1798647217']", this).val()
+    if ($("input[name='entry.1857496253']", this).length > 0) {
+      var value = $("input[name='entry.1857496253']", this).val()
       if ((value.indexOf("LC") != 0) && (value.indexOf("NC") != 0) && (value.indexOf("IM") != 0)) {
         console.log("culo stronzo");
         toast("Please insert 'LC', 'NC' or 'IM' in Committee name");
