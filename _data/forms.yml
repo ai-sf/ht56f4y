@@ -326,15 +326,16 @@ details:
           type: text
           size: s15 m7
           label: "Team name"
-          required: true
+          required: false
           name: entry.776975050
           conditioned: participant
         - id: capitain
           type: checkbox
           checked: false
-          required: true
+          required: false
           label: "I am the team capitain"
           name: entry.162906292
+          value: "Yes"
           conditioned: participant   
     - row:
       - section_title: "Information for the hostels"
@@ -451,14 +452,15 @@ details:
         label: "I will give a lecture"
         type: checkbox
         name: entry.1776467068
-        required: true
+        required: false
+        value: "Yes"
       - id: lecture_title
         label: "Lecture title"
         type: text
         name: entry.926077361
         size: s15 m10
         conditioned: lecture
-        required: true
+        required: false
       - id: lecture_abstract
         label: "Lecture abstract"
         type: text
@@ -466,21 +468,22 @@ details:
         conditioned: lecture
         type: textarea
         size: s15 m10
-        required: true      
+        required: false      
     - row:
       - id: poster
         size: s15
         label: "I will present a poster"
         type: checkbox
         name: entry.23589590
-        required: true
+        required: false
+        value: "Yes"
       - id: poster_title
         label: "Poster title"
         type: text
         name: entry.1694535645
         size: s15 m10
         conditioned: poster
-        required: true
+        required: false
       - id: poster_abstract
         label: "Poster abstract"
         type: text
@@ -488,7 +491,7 @@ details:
         conditioned: poster
         type: textarea
         size: s15 m10
-        required: true  
+        required: false  
     - row:
       - label: "Laboratory preferences"
         size: s15 m6
@@ -617,6 +620,7 @@ details:
           size: s15 m6
           label: "Specify here"
           name: entry.1875668673
+          required: false
           conditioned: diet_other
       - label: "Do you have any food intolerances/allergies?"
         required: true
@@ -639,6 +643,7 @@ details:
             label: "Specify here"
             conditioned: intolerances_yes
             name: entry.1812571379
+            required: false
     - row:
       - id: disabilities
         label: "Special needs / disabilities (if any)"
@@ -726,6 +731,7 @@ details:
           type: text
           name: entry.141265469
           conditioned: arrival_other
+          required: false
     - row:
       - id: last_transport
         size: s15
@@ -753,6 +759,7 @@ details:
           type: text
           label: "How many?"
           conditioned: extra_nights_before
+          required: false
     - row:
       - label: "Need for extra nights after the event?"
         fields:
@@ -773,6 +780,7 @@ details:
           type: text
           label: "How many?"
           conditioned: extra_nights_after
+          required: false
     - row:
       - id: notes
         size: s15
@@ -786,6 +794,7 @@ details:
         label: "I agree to give rights on pictures"
         type: checkbox
         name: entry.1842877286
+        value: I agree
         required: false
       - id: gdpr
         size: s15 m12
