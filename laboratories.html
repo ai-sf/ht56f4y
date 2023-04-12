@@ -1,0 +1,32 @@
+---
+
+layout: default
+title: Laboratories
+
+---
+
+{% include title.html data=site.data.laboratories.title %}
+
+<div id="locations" class="location-cards">
+{% for lab in site.data.laboratories.labs %}
+<div class="card primary">
+	<div class="card-header">
+		<div class="row">
+<!--			<div class="col l2 s12">
+				<div class="card-image">
+        				<img src="{{site.url}}/img/labs/{{lab.image}}" />
+        			</div>	
+    			</div>
+-->    		
+    			<div class="col l13 s12">
+        			<div class="card-lab-title"> <h2>{{lab.name}}</h2> </div>        	
+        		</div>
+        	</div>
+        </div>
+
+        <div class="card-content">
+        	<p> {{lab.description}} </p>
+	</div>
+</div>
+{% endfor %}
+</div>

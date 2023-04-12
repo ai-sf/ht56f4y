@@ -13,14 +13,18 @@ areas:
      url: "https://www.inrim.it/en"
      logo: "inrim.png"
      height: 6rem
+#   - name: "Confindustria Lombardia"
+#     url: "https://confindustria.lombardia.it/"
+#     logo: confindustria.jpg
+#     height: 9rem
 #   - name: "ABB"
 #     url: "https://new.abb.com/it"
 #     logo: "abb.png"
 #     height: 6rem
-# - title: "Partners"
-#   sponsors:
-#   - logo: "ibm_2.jpg"
-#     height: 10rem
+ - title: "Partners"
+   sponsors:
+   - logo: "ibm_transparent.png"
+     height: 6.5rem
  - title: "Collaborations"
    sponsors:
 #   - name: "Università degli Studi di Milano"
@@ -36,6 +40,10 @@ areas:
    - name: "Società Italiana di Ottica e Fotonica"
      url: "https://www.siof-ottica.it"
      logo: "siof.png"
+#   - name: "Fondazione Cariplo"
+#     logo: "cariplo_transparent.png"
+#     url: "https://www.fondazionecariplo.it/it/index.html"
+#     height: 9rem
    - name: "International Association of Geomagnetism and Aeronomy"
      url: "https://iaga-aiga.org/"
      logo: "iaga.jpg"

@@ -1,0 +1,68 @@
+labs:
+  - name: "CNR - ISTP"
+    image: ""
+    description: "ISTP has internationally recognized expertise in plasma physics and chemistry and related applications, such as controlled thermonuclear fusion with magnetic confinement, negative ion sources, low temperature plasmas for aerospace applications, energy, medicine, agriculture, innovative materials, environment, cultural heritage, space and astrophysical plasmas. Several laboratories are active in Milan, including:
+<ul>
+<li> The GyM linear machine, to produce and sustain a plasma </li>
+<li> The neutron and gamma spectroscopy laboratory where innovative detectors are developed to be used for various applications </li>
+<li> The Cold Plasma Laboratory, dedicated to fundamental and applicative research on plasma processes and the treatment of the surface of materials </li>
+</ul>"
+  - name: "Pirelli"
+    image: ""
+    description: "Pirelli's Research and Development department in the Milan Bicocca district works to ensure increasingly cutting-edge performance, processes and products in terms of safety and sustainability. Innovation and attention to the environment pass through the chemical and physical laboratories, in which research is oriented towards the increasing use of raw materials from renewable and recycled sources, but also through the tests on the prototypes that are carried out here. The visit to R&D will also be an opportunity to visit the Headquarters and the Pirelli Foundation with the company's Historical Archive, which bears witness to 150 years of constant commitment to the search for innovative solutions and ever more advanced technologies."
+  - name: "Brera Astronomical Observatory"
+    image: ""
+    description: "The Brera Astronomical Observatory offers you a visit to their Museum (MusAB) based on two different technologies, Augmented Reality and Virtual Reality. The multimedia pills, usable through the MARSS app, starting from the ancient astronomical instruments, allow to weave a bridge between the history of science and the avant-garde of astronomical research. Thanks to the app, it will also be possible to visit four places in Milan of particular interest for astronomy: the Brera palace, the Brera botanical garden, the Indro Montanelli gardens and the sundial of the Milan cathedral. With the new digital technologies, the MusAB tools will take you on a journey to discover their link with history, the city and the frontiers of astronomy, making the Brera Astronomical Museum unique on the national scene: an extraordinary place of intersection between science and history."
+  - name: "CNR-ISTM"
+    image: ""
+    description: "If you choose this option you will have the opportunity to visit two laboratories. The first one, the Photonics Laboratory (POPLAB) focusses on organic semiconductors, which are made with materials based on carbon rather than silicon as in conventional electronics. The themes of the visit will be: design of organic semiconductors, structure-property relationships in organic semiconductors, large-area processing for thin-film electronics and organic devices. The second one, the SmartMatLab Center (SML) is an interdisciplinary advanced facility which includes in turn two laboratories, one equipped with a series of spectroscopic equipments to perform a complete photophysical characterization of molecular organic materials and inorganic ones in the form of solution or solid state; and the second one which allows for the fabrication of devices by means of different thin film deposition techniques."
+  - name: "Physics Department of the Milan Polytechnic"
+    image: ""
+    description: "The Physics Department of the Milan Polytechnic and the Institute of Photonics and Nanotechnology of the National Research Council have developed a thriving research activity in the field of experimental physics of matter, with the aim of understanding the fundamental physical phenomena and developing new technologies for applications in the fields of medicine, renewable energies and microelectronics.
+The research laboratories  will present activities related to 
+<ul>
+<li> The development of laser devices and ultra-short pulses; </li>
+<li> The application of lasers for health; </li>
+<li> Ultrafast spectroscopy for the study of light-matter interaction; </li>
+<li> Femtosecond laser micromachining; </li>
+<li> The fabrication of thin films, nanostructures and hybrid organic/inorganic interfaces and the study of their electronic, optical and magnetic properties. </li>
+</ul>"
+  - name: "IFOM"
+    image: ""
+    description: "The research conducted at IFOM aims to understand the molecular processes responsible for the onset and development of cancer. IFOM leads its research with an interdisciplinary perspective, merging different cognitive fields: molecular, cellular, structural and computational biology, genomics, proteomics, molecular diagnostics, pharmacogenomics, immunology, metabolomics, physics and engineering. The program of the visit is: a seminar on IFOM and qBio opportunities for physicists, followed by an interactive exercise in quantitative biology and the actual visit to IFOM labs, for which you will have to choose between one of the following laboratories:
+<ul>
+<li> Bachi Lab and Mass Spectrometry Facility - Functional Proteomics </li>
+<li> Ciliberto Lab - Quantitative Biology of Cell Cycle </li>
+<li> Doksani Lab and Electron Microscopy - Replication Stress Response </li>
+<li> Ferrari Lab - Bioinformatics and Funcitonal Genomics </li>
+<li> Gauthier Lab and IFOM Imaging Facility - Mechanobiology </li>
+<li> Scita Lab and IFOM Imaging Facility - Cell Migration </li>
+</ul>"
+  - name: "SAES"
+    image: ""
+    description: "SAES started its journey in 1940 from a small laboratory, and during its 80 years of innovation, always put Research at the center. At that time the filament in the thermionic valves of amplifiers had a short life because it burned out quickly. SAES found a solution to prevent it from burning: getter, which absorbed the oxygen molecules extending the filament life. This has always been the Company’s approach: solving problems with highly innovative solutions, with the aim of improving the quality of life, adapting and modifying the getter for different applications.
+We are glad to be part of the most important innovations of our daily lives, from fusion energy, to 5G, from mobiles image stabilizers to medical pods, from compostable packaging to domotics and actuators.
+SAES is always looking for new solutions to today's and tomorrow's problems and to develop new materials and applications. 
+Young talented physicists can get involved in big international projects and give their contribution in many fields of physics applications. Want to take part to innovation? <br>
+Learn more about our core projects. Follow us on LINKEDIN
+<ul>
+<li> <a href=\"https://bit.ly/3KtkLAl\"> SAES Getters & Dispensers </a></li>
+<li> <a href=\"https://bit.ly/43rRbUt\"> SAES High Vacuum </a></li>
+<li> <a href=\"https://bit.ly/3GEapwy\"> SAES </a></li>
+</ul>
+<p> and YouTube: </p>
+<ul>
+<li> <a href=\"https://www.youtube.com/@SAESgroup/playlists\"> @SAESgroup </a></li>
+<li> <a href=\"https://youtube.com/playlist?list=PLzQtwfbHFw-FRvatZ3z-06R4499mHoJh1\"> Vacuum Systems </a></li>
+<li> <a href=\"https://youtube.com/playlist?list=PLzQtwfbHFw-HFiyN_d6nVkIwqSwI4D-CS\"> Getter & Dispensers </a></li>
+<li> <a href=\"https://youtube.com/playlist?list=PLzQtwfbHFw-GxR0_MNJhXFu6wlVDYMmVc\"> SMA – Shape Memory alloys </a></li>
+</ul>"
+  - name: "IBM"
+    image: ""
+    description: IBM Quantum leads the world in quantum computing. This nascent technology is widely expected to solve valuable problems that today’s most powerful classical supercomputers cannot solve and never will. Our community of clients and partners comprises 210+ Fortune 500 companies, academic institutions, national labs, and startups. With the largest fleet of 20+ of the most powerful quantum systems in the world, we are aiming to turn the world’s most challenging problems into valuable opportunities. <a href="/img/labs/ibm_agenda.jpg"> Here is the link to the agenda of the visit. </a>
+  - name: "LASA"
+    image: ""
+    description: "The INFN Laboratory of Accelerators and Applied Superconductivity (LASA) is an international center of excellence in the field of cutting-edge technologies for particle accelerators based in Segrate, near Milan.
+LASA develops advanced technologies for superconductivity, cryogenics and the production of high-intensity static and radiofrequency electromagnetic fields. Here the first European superconducting cyclotron was built, and third in the world, in operation since 1994 at the INFN Southern National Laboratories.
+The primary mission of LASA today consists in the development of superconducting systems for particle acceleration, with radiofrequency (RF) cavities, and for beam guidance, with magnets.
+Alongside this, LASA perpetuates its tradition in the experimental field by participating in the study and development of experiments in the field of innovative acceleration schemes."
