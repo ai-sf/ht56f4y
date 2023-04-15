@@ -15,15 +15,12 @@
   - text: Road to Milan
     url: "/preliminaries"
     icon: flight
-  - text: Registration
-    url: "/registration"
-    icon: "border_color"
   - text: Confirmation
     url: "/confirmation"
     icon: "check"
-  - text: Observers
-    url: "/observers"
-    icon: "visibility"
+  - text: Laboratories
+    url: "/laboratories"
+    icon: science
   - text: Locations
     url: "/locations"
     icon: "location_on"

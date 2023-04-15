@@ -921,6 +921,20 @@ nav.sidenav{
   }
 }
 
+.form-text-section{
+  p{
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
+    line-height: clamp(2rem, 5vw, 2.4rem);
+    text-align: left;
+    font-weight: 500;
+    @media #{$small-and-down}{
+      text-align: center;
+    }
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+  }
+}
+
 .form-field {
   box-sizing: border-box;
   &[data-condition]{

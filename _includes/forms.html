@@ -7,6 +7,11 @@
      <h1 class="area-title">{{field.section_title}}</h1>
     </div>
     {% endif %}
+    {% if field.text_section %}
+    <div class="row form-text-section">
+     <p>{{field.text_section}}</p>
+    </div>
+    {% endif %}
    <div class="col  {{field.size}}">
     {% if field.fields %}
       {% if field.label %} <p class="field-info">{{field.label}}</p> {% endif %}

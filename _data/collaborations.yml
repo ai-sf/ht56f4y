@@ -48,6 +48,10 @@ areas:
      url: "https://iaga-aiga.org/"
      logo: "iaga.jpg"
      height: 7.5rem
+#   - name: "International Centre for Theoretical Physics"
+#     url: "https://www.ictp.it/"
+#     logo: "ictp.jpg"
+#     height: 4.5rem
  - title: "Techical sponsorships"
    sponsors:
    - name: "101CAFFE'"

@@ -494,53 +494,54 @@ details:
         required: false  
     - row:
       - label: "Laboratory preferences"
-        size: s15 m6
+        size: s15 m8
+        text_section: "Need for more information about labs and workshops? See <a href=\"/laboratories\">here</a> or here."
         fields:
         - id: lab_first_choice
           label: "Your First Choice"
-          size: s15 m8
+          size: s15 m3
           type: select
           name: entry.570387281
           options:
-          - "LAB1"
-          - "LAB2"
-          - "LAB3"
-          - "LAB4"
-          - "LAB5"
-          - "LAB6"
-          - "LAB7"
-          - "LAB8"
-          - "LAB9"
+          - "CNR - ISTP"
+          - "Pirelli"
+          - "Brera Astronomical Observatory"
+          - "CNR-ISTM"
+          - "Polytechnic Physics Department"
+          - "IFOM"
+          - "SAES"
+          - "IBM"
+          - "LASA"
         - id: lab_second_choice
           label: "Your Second Choice"
-          size: s15 m8
+          size: s15 m5
           type: select
           name: entry.1913386706
           options:
-          - "LAB1"
-          - "LAB2"
-          - "LAB3"
-          - "LAB4"
-          - "LAB5"
-          - "LAB6"
-          - "LAB7"
-          - "LAB8"
-          - "LAB9"
+          - "CNR - ISTP"
+          - "Pirelli"
+          - "Brera Astronomical Observatory"
+          - "CNR-ISTM"
+          - "Polytechnic Physics Department"
+          - "IFOM"
+          - "SAES"
+          - "IBM"
+          - "LASA"
         - id: lab_third_choice
           label: "Your Third Choice"
-          size: s15 m8
+          size: s15 m5
           type: select
           name: entry.1393483066
           options:
-          - "LAB1"
-          - "LAB2"
-          - "LAB3"
-          - "LAB4"
-          - "LAB5"
-          - "LAB6"
-          - "LAB7"
-          - "LAB8"
-          - "LAB9"
+          - "CNR - ISTP"
+          - "Pirelli"
+          - "Brera Astronomical Observatory"
+          - "CNR-ISTM"
+          - "Polytechnic Physics Department"
+          - "IFOM"
+          - "SAES"
+          - "IBM"
+          - "LASA"
       - label: "Workshop preferences"
         size: s15 m5
         fields:
@@ -559,7 +560,7 @@ details:
           - "WOR7"
         - id: workshop_second_choice
           label: "Your Second Choice"
-          size: s15 m8
+          size: s15 m5
           type: select
           name: entry.419717547
           options:
@@ -572,7 +573,7 @@ details:
           - "WOR7"
         - id: workshop_third_choice
           label: "Your Third Choice"
-          size: s15 m8
+          size: s15 m5
           type: select
           name: entry.1039592912
           options:
