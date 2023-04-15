@@ -495,7 +495,7 @@ details:
     - row:
       - label: "Laboratory preferences"
         size: s15 m8
-        text_section: "Need for more information about labs and workshops? See <a href=\"/laboratories\">here</a> or here."
+        text_section: "Need for more information about labs and workshops? See <a href=\"/laboratories\">here</a> or <a href=\"/workshops\">here</a>."
         fields:
         - id: lab_first_choice
           label: "Your First Choice"
@@ -543,47 +543,41 @@ details:
           - "IBM"
           - "LASA"
       - label: "Workshop preferences"
-        size: s15 m5
+        size: s15 m6
         fields:
         - id: workshop_first_choice
           label: "Your First Choice"
-          size: s15 m8
+          size: s15 m6
           type: select
           name: entry.563581422
           options:
-          - "WOR1"
-          - "WOR2"
-          - "WOR3"
-          - "WOR4"
-          - "WOR5"
-          - "WOR6"
-          - "WOR7"
+          - "SAES"
+          - "Econophysics"
+          - "INRIM"
+          - "Amazon"
+          - "Optica"
         - id: workshop_second_choice
           label: "Your Second Choice"
-          size: s15 m5
+          size: s15 m6
           type: select
           name: entry.419717547
           options:
-          - "WOR1"
-          - "WOR2"
-          - "WOR3"
-          - "WOR4"
-          - "WOR5"
-          - "WOR6"
-          - "WOR7"
+          - "SAES"
+          - "Econophysics"
+          - "INRIM"
+          - "Amazon"
+          - "Optica"
         - id: workshop_third_choice
           label: "Your Third Choice"
-          size: s15 m5
+          size: s15 m6
           type: select
           name: entry.1039592912
           options:
-          - "WOR1"
-          - "WOR2"
-          - "WOR3"
-          - "WOR4"
-          - "WOR5"
-          - "WOR6"
-          - "WOR7"            
+          - "SAES"
+          - "Econophysics"
+          - "INRIM"
+          - "Amazon"
+          - "Optica"        
     - row:
       - id: diet
         type: select
