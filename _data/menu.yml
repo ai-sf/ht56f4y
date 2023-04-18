@@ -21,9 +21,9 @@
   - text: Workshops
     url: "/workshops"
     icon: "business_center"
-  - text: Definitive Confirmation
-    url: "/last_form"
-    icon: done_outline
+#  - text: Definitive Confirmation
+#    url: "/last_form"
+#    icon: done_outline
   - text: Locations
     url: "/locations"
     icon: "location_on"
