@@ -27,9 +27,6 @@ areas:
      height: 6.5rem
  - title: "Collaborations"
    sponsors:
-#   - name: "Università degli Studi di Milano"
-#     url: "https://www.unimi.it/en"
-#     logo: "unimi.png"
    - name: "International Union of Pure and Applied Physics"
      url: "https://iupap.org/"
      logo: "iupap.png"   
@@ -40,10 +37,10 @@ areas:
    - name: "Società Italiana di Ottica e Fotonica"
      url: "https://www.siof-ottica.it"
      logo: "siof.png"
-#   - name: "Fondazione Cariplo"
-#     logo: "cariplo_transparent.png"
-#     url: "https://www.fondazionecariplo.it/it/index.html"
-#     height: 9rem
+   - name: "Fondazione Cariplo"
+     logo: "cariplo_transparent.png"
+     url: "https://www.fondazionecariplo.it/it/index.html"
+     height: 9rem
    - name: "International Association of Geomagnetism and Aeronomy"
      url: "https://iaga-aiga.org/"
      logo: "iaga.jpg"
@@ -57,8 +54,16 @@ areas:
    - name: "101CAFFE'"
      url: "https://www.101caffe.it/"
      logo: "101caffe.jpg"
+#   - name: "Abaribi"
+#     url: "https://abaribi.it/"
+#     logo: "abaribi.jpg"
+#     height: 8.2rem
  - title: "Patronages"
    sponsors:
+   - name: "Università degli Studi di Milano"
+     url: "https://www.unimi.it/en"
+     logo: "unimi.jpg"
+     height: 6.6rem
    - name: "Comune di Milano"
      url: "https://www.comune.milano.it/"
      logo: "milano.jpg"
@@ -70,11 +75,12 @@ areas:
    - name: "European Optical Society"
      url: "https://www.europeanoptics.org/"
      logo: "eos.png"
+     height: 9rem
 #   - name: "Istituto Lombardo Accademia di Scienze e Lettere"
 #     height: 10rem
 #     url: "https://www.istitutolombardo.it/"
 #     logo: "istituto_lombardo_3.png"
-#   - name: "Istituto Nazionale di Astrofisica"
-#     url: "http://www.inaf.it/it"
-#     logo: "inaf.png"
-#     height: 11rem
+   - name: "Istituto Nazionale di Astrofisica"
+     url: "http://www.inaf.it/it"
+     logo: "inaf.png"
+     height: 10.5rem

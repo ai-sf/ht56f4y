@@ -3,9 +3,9 @@ labs:
     image: ""
     description: "ISTP has internationally recognized expertise in plasma physics and chemistry and related applications, such as controlled thermonuclear fusion with magnetic confinement, negative ion sources, low temperature plasmas for aerospace applications, energy, medicine, agriculture, innovative materials, environment, cultural heritage, space and astrophysical plasmas. Several laboratories are active in Milan, including:
 <ul>
-<li> The GyM linear machine, to produce and sustain a plasma </li>
-<li> The neutron and gamma spectroscopy laboratory where innovative detectors are developed to be used for various applications </li>
-<li> The Cold Plasma Laboratory, dedicated to fundamental and applicative research on plasma processes and the treatment of the surface of materials </li>
+<li> The GyM linear machine, to produce and sustain a plasma; </li>
+<li> The neutron and gamma spectroscopy laboratory where innovative detectors are developed to be used for various applications; </li>
+<li> The Cold Plasma Laboratory, dedicated to fundamental and applicative research on plasma processes and the treatment of the surface of materials. </li>
 </ul>"
   - name: "Pirelli"
     image: ""
@@ -31,12 +31,12 @@ The research laboratories  will present activities related to
     image: ""
     description: "The research conducted at IFOM aims to understand the molecular processes responsible for the onset and development of cancer. IFOM leads its research with an interdisciplinary perspective, merging different cognitive fields: molecular, cellular, structural and computational biology, genomics, proteomics, molecular diagnostics, pharmacogenomics, immunology, metabolomics, physics and engineering. The program of the visit is: a seminar on IFOM and qBio opportunities for physicists, followed by an interactive exercise in quantitative biology and the actual visit to IFOM labs, for which you will have to choose between one of the following laboratories:
 <ul>
-<li> Bachi Lab and Mass Spectrometry Facility - Functional Proteomics </li>
-<li> Ciliberto Lab - Quantitative Biology of Cell Cycle </li>
-<li> Doksani Lab and Electron Microscopy - Replication Stress Response </li>
-<li> Ferrari Lab - Bioinformatics and Funcitonal Genomics </li>
-<li> Gauthier Lab and IFOM Imaging Facility - Mechanobiology </li>
-<li> Scita Lab and IFOM Imaging Facility - Cell Migration </li>
+<li> Bachi Lab and Mass Spectrometry Facility - Functional Proteomics; </li>
+<li> Ciliberto Lab - Quantitative Biology of Cell Cycle; </li>
+<li> Doksani Lab and Electron Microscopy - Replication Stress Response; </li>
+<li> Ferrari Lab - Bioinformatics and Funcitonal Genomics; </li>
+<li> Gauthier Lab and IFOM Imaging Facility - Mechanobiology; </li>
+<li> Scita Lab and IFOM Imaging Facility - Cell Migration. </li>
 </ul>"
   - name: "SAES"
     image: ""

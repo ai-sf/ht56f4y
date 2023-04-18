@@ -308,11 +308,11 @@ details:
         required: true
     - row:
       - section_title: "Role"
-        label: "Partecipant or observer?"
+        label: "Participant or observer?"
         fields:
         - id: participant
           type: radio
-          label: "Partecipant"
+          label: "Participant"
           value: partecipant
           checked: true
           name: entry.332830004
@@ -326,7 +326,7 @@ details:
           type: text
           size: s15 m7
           label: "Team name"
-          required: false
+          required: true
           name: entry.776975050
           conditioned: participant
         - id: capitain
@@ -444,7 +444,7 @@ details:
         label: "Home address"
         type: text
         name: entry.1374626515
-        required: true
+        required: false
     - row:
       - section_title: "Information for the event"
         id: lecture
@@ -552,10 +552,10 @@ details:
           name: entry.563581422
           options:
           - "SAES"
-          - "Econophysics"
+          - "Andrea Rocchetto"
           - "INRIM"
-          - "Amazon"
-          - "Optica"
+          - "OPTICA"
+          - "Intesa San Paolo"
         - id: workshop_second_choice
           label: "Your Second Choice"
           size: s15 m6
@@ -563,10 +563,10 @@ details:
           name: entry.419717547
           options:
           - "SAES"
-          - "Econophysics"
+          - "Andrea Rocchetto"
           - "INRIM"
-          - "Amazon"
-          - "Optica"
+          - "OPTICA"
+          - "Intesa San Paolo"
         - id: workshop_third_choice
           label: "Your Third Choice"
           size: s15 m6
@@ -574,10 +574,10 @@ details:
           name: entry.1039592912
           options:
           - "SAES"
-          - "Econophysics"
+          - "Andrea Rocchetto"
           - "INRIM"
-          - "Amazon"
-          - "Optica"        
+          - "OPTICA"
+          - "Intesa San Paolo"  
     - row:
       - id: diet
         type: select
@@ -680,35 +680,35 @@ details:
         fields:
         - id: arrival_lin
           size: s15
-          label: LIN
+          label: "LIN Airport"
           type: radio
           name: entry.1360666070
           value: lin
           checked: true
         - id: arrival_mxp
           size: s15
-          label: MXP
+          label: "MXP Airport"
           type: radio
           name: entry.1360666070
           value: mxp
           checked: false
         - id: arrival_bgy
           size: s15
-          label: BGY
+          label: "BGY Airport"
           type: radio
           name: entry.1360666070
           value: bgy
           checked: false
         - id: arrival_centrale
           size: s15
-          label: "Centrale train station"
+          label: "Centrale Train Station"
           type: radio
           name: entry.1360666070
           value: centrale
           checked: false
         - id: arrival_garibaldi
           size: s15
-          label: "Garibaldi train station"
+          label: "Garibaldi Train Station"
           type: radio
           name: entry.1360666070
           value: garibaldi
@@ -733,7 +733,7 @@ details:
         label: "Last mean of transport at arrival (flight/train number)"
         type: text
         name: entry.1303549610
-        required: true
+        required: false
     - row:
       - label: "Need for extra nights before the event?"
         fields:

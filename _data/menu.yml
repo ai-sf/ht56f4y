@@ -15,12 +15,15 @@
   - text: Road to Milan
     url: "/preliminaries"
     icon: flight
-  - text: Confirmation
-    url: "/confirmation"
-    icon: "check"
   - text: Laboratories
     url: "/laboratories"
     icon: science
+  - text: Workshops
+    url: "/workshops"
+    icon: "business_center"
+  - text: Definitive Confirmation
+    url: "/last_form"
+    icon: done_outline
   - text: Locations
     url: "/locations"
     icon: "location_on"

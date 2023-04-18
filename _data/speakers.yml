@@ -27,14 +27,33 @@ In 2020 Pasquero won a grant from the European Space Energy for the project GLAU
    uni: ETH Zurich, University of Cambridge
    locked: false
    
- - name: Mr X
-   date: Friday, 12<span class="super">th</span>
-   topic: "Newton's Principia Mathematica: an introduction."
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Massachusetts Institute of Technology
-   locked: true
+ - name: Paolo Milani
+#   date: Friday, 12<span class="super">th</span>
+#   topic: "Newton's Principia Mathematica: an introduction."
+   biography: "Paolo Milani is Full Professor at the Department of Physics of the University of Milano.
+He graduated in Physics from the University of Pavia (Italy) and he received his Docteur es
+Sciences (PhD) in 1991 from the École Polytechnique Fédérale de Lausanne (CH). He is the
+founder of the Molecular Beams and Nanocrystalline Materials Laboratory at the University of
+Milano.
+His research focuses on cluster-assembled nanostructured materials for neuromorphic
+systems, stretchable electronics, biomedicine, soft robotics. He has published more than 300
+papers on refereed journals, several review papers and a monograph on supersonic cluster beam
+deposition for the synthesis of nanostructured thin films.
+Milani is the recipient of the U. Campisano Award from the Italian Institute for the
+Physics of Matter in 2000 for his contributions to the field of the synthesis and characterization of
+nanostructured materials. In 2006 he received the L. Tartufari Prize awarded by the Lincei
+National Academy.
+Currently, Milani serves as Director of the Interdisciplinary Center for Nanostructured
+Materials and Interfaces of the University of Milano.
+He holds more than thirty patents in the field of nanotechnology and he is co-founder of four
+companies: TETHIS active in the field of nanostructured devices for early cancer diagnostics, WISE
+producing implantable electrodes for neuromodulation, EOS producing optical diagnostic systems for
+nanoparticles in complex biological fluids, HUVANT active in the field of 3D printing of haptic
+phantoms for surgical training."
+   img: milani.jpg
+   uni: Università degli Studi di Milano
+   locked: false
+   
  - name: Mr Y
    date: Friday, 12<span class="super">th</span>
    topic: Dark matter and dark energy, reconsidered.
