@@ -21,6 +21,10 @@ areas:
 #     url: "https://new.abb.com/it"
 #     logo: "abb.png"
 #     height: 6rem
+#   - name: "SAES"
+#     url: "https://www.saesgetters.com/it"
+#     logo: "saes.jpg"
+#     height: 8rem
  - title: "Partners"
    sponsors:
    - logo: "ibm_transparent.png"

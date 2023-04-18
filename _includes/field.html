@@ -11,8 +11,10 @@
       <option> {{item}} </option>
       {% endfor %}
       </select>
+  {% elsif include.data.type == "file" %}
+  <input class="form-field-file" type="{{include.data.type}}" id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"/>
   {% else %}
-      <input type="{{include.data.type}}" placeholder=" " id="{{include.data.id}}" name="{{include.data.name}}" value="{{include.data.value}}"  {% if include.data.required == true %} required {% endif %} />
+      <input type="{{include.data.type}}" placeholder=" " id="{{include.data.id}}" name="{{include.data.name}}"  {% if include.data.required == true %} required {% endif %} />
   {% endif %}
   <label class="form-field-label" for="{{include.data.id}}">{{include.data.label}}{% if include.data.required %} *{%endif%}</label>
   {% if include.data.info %}

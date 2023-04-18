@@ -307,6 +307,10 @@ details:
         name: entry.1857496253
         required: true
     - row:
+      - text_section: "Click <a href=\"/img/templatePlancks.pptx\" download>here</a> to download your badge template. After customization, use the button below to upload the file. Remember to rename it as \"name_surname.pptx\"!"
+        type: file
+        name: entry.file 
+    - row:
       - section_title: "Role"
         label: "Participant or observer?"
         fields:
