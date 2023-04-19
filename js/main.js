@@ -205,7 +205,8 @@ $(document).ready(function () {
       url: $(this).attr("action"),
       data: data,
       complete: function (data) {
-        toast("Thank you, the form has been submitted.")
+        toast("Thank you, the form has been submitted.");
+        window.location.replace("/form_submission");
       }
 
     });
