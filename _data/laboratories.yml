@@ -59,7 +59,9 @@ Learn more about our core projects. Follow us on LINKEDIN
 </ul>"
   - name: "IBM"
     image: ""
-    description: IBM Quantum leads the world in quantum computing. This nascent technology is widely expected to solve valuable problems that today’s most powerful classical supercomputers cannot solve and never will. Our community of clients and partners comprises 210+ Fortune 500 companies, academic institutions, national labs, and startups. With the largest fleet of 20+ of the most powerful quantum systems in the world, we are aiming to turn the world’s most challenging problems into valuable opportunities. <a href="/img/labs/ibm_agenda.jpg"> Here is the link to the agenda of the visit. </a>
+    description: "For more than 40 years, quantum computing has intrigued and amazed scientists and non-scientists in its future possibility for solving problems that are intractable using classical computing.
+Since 2016, IBM has made real quantum computers available on the cloud so that clients, students, and researchers can begin to learn and experiment with this new way of computing. IBM is advancing the quantum field across hardware, software and the growth of the global quantum ecosystem: during this workshop,
+we will see what potentials exist in various industries, the state of quantum computing today, and how you can get on the right path to make the earliest use of this rapidly evolving technology, with a series of hands-on sessions to start interacting with a real physical device in the cloud."
   - name: "LASA"
     image: ""
     description: "The INFN Laboratory of Accelerators and Applied Superconductivity (LASA) is an international center of excellence in the field of cutting-edge technologies for particle accelerators based in Segrate, near Milan.

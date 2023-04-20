@@ -54,21 +54,45 @@ phantoms for surgical training."
    uni: Università degli Studi di Milano
    locked: false
    
- - name: Mr Y
-   date: Friday, 12<span class="super">th</span>
-   topic: Dark matter and dark energy, reconsidered.
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Alma Mater Studiorum Bologna
-   locked: true
- - name: Mr C
-   date: Friday, 12<span class="super">th</span>
-   topic: Is quantum mechanics correct?
-   biography: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra semper mauris ac pellentesque. Aliquam ac lorem eu sapien egestas maximus vel malesuada turpis. Suspendisse potenti. Integer vel cursus nibh. Maecenas odio tellus, efficitur nec rhoncus sit amet, finibus ut elit. Suspendisse vehicula malesuada erat, nec porttitor lectus mollis vitae. Integer pharetra a nibh quis aliquet."
-   img: blank.png
-   uni: Università degli Studi di Milano, Dipartimento di Matematica
+ - name: Stefano Forte
+ #  date: Friday, 12<span class="super">th</span>
+ #  topic: Dark matter and dark energy, reconsidered.
+   biography: "Stefano Forte is full professor of theoretical physics at Milan University. He was educated at Turin and MIT and held postdoc positions in Saclay and CERN and staff positions in Turin and   Rome. He has mostly worked on various topics related to the structure of the proton. As leader of the NNPDF collaboration he has pioneered the use of machine learning techniques in particle physics. He is an advanced ERC grant recipient and five of his former students have been awarded starting ERC grants."
+   img: forte.png
+   uni: Università degli Studi di Milano
+   locked: false
+   
+ - name: Alessandro Curioni
+#  date: Friday, 12<span class="super">th</span>
+#  topic: Is quantum mechanics correct?
+   biography: "IBM Fellow, Vice President Europe &amp; Africa, IBM Research and Director, IBM
+Research Europe - ZurichDr. Alessandro Curioni is an IBM Fellow, Vice President of IBM
+Europe and Africa and Director of the IBM Research Lab in Zurich, Switzerland. He is
+responsible for IBM corporate research in Europe and leads global research in Accelerated
+Discovery and Security.
+Dr. Curioni is an internationally recognized leader in the area of high-performance computing
+and computational science, where his innovative thinking and seminal contributions have helped
+solve some of the most complex scientific and technological problems in healthcare, aerospace,
+consumer goods and electronics. He was a member of the winning team recognized with the
+prestigious Gordon Bell Prize in 2013 and 2015. Currently, his research interests include
+accelerating the rate of discovery with AI and Quantum, as well as Big Data and novel compute
+paradigms - including neuromorphic computing.Dr. Curioni received his undergraduate degree in
+Theoretical Chemistry and his PhD from Scuola Normale Superiore, Pisa, Italy. He started at
+IBM Research – Zurich as a PhD student in 1993 before officially joining as a research staff
+member in 1998. Since then, he has had several research and manager roles, including as the
+founding manager of the Cognitive Computing and Computational Sciences department. He is a
+member of the Swiss Academy of Technical SciencesVery short bio:
+Dr. Alessandro Curioni
+IBM Fellow, Vice President Europe &amp; Africa, IBM Research and Director, IBM
+Research Europe - ZurichDr. Alessandro Curioni is an IBM Fellow, Vice President of IBM
+Europe and Africa and Director of the IBM Research Lab in Zurich, Switzerland. He is
+responsible for IBM corporate research in Europe and leads global research in Accelerated
+Discovery and Security. Currently, his research interests include accelerating the rate of
+discovery with AI and Quantum, as well as Big Data and novel compute paradigms - including
+neuromorphic computing. Dr. Curioni received his PhD in Theoretical Chemistry from Scuola
+Normale Superiore, Pisa, Italy. He is a member of the Swiss Academy of Technical Sciences."
+   img: curioni.jpg
+   uni: IBM Research Vice-president, Europe
    locked: true
 locked:
   name: Locked

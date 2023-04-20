@@ -30,18 +30,18 @@ schedule:
      - title: Free Dinner
        description: "A moment of pure relaxation. This dinner is not included in the program, everyone will be free to explore the city at their own pace or follow our taste guide in search of the best restaurant in Milan."
        time: "20:00/21:00"
-       location: 
-       link: ""
+       location: "Various bars or restaurants"
+       link: "https://www.thefork.it/"
 
  - day: 2
    date: Saturday, 13<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: "Breakfast is the most important meal of the day"
+       description: "Breakfast is the most important meal of the day."
        time: "07:30/08:30"
        location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
-     - title: Guest Lecture
+     - title: Guest Lecture (P. Milani)
        description: "There are two sides to every coin, man and his shadow, electrons and protons, good and evil, night and day, light and shadow. Only the food monopolies would be missing... Surely the first guest lecture will also have its opposite. Follow our Instagram page to discover more."
        time: "09:30/11:00"
        location: "Milan Conservatory"
@@ -61,28 +61,25 @@ schedule:
 
      - title: Lunch
        description: ""
-       time: "13:15/14:15"
-       location: 
-       link: ""
+       time: "13:15/14:00"
+       location: University Canteen
+       link: "https://goo.gl/maps/9VZ4X3ToWHzhBDjC6"
 
      - title: Student Session
        description: "Do you want to share your thesis or your important work? You will have 15 minutes at your disposal to intrigue your listener. And for everyone else: you will travel through the most disparate fields of physics in one of the most exclusive places in Milan."
        time: "14:30/15:30"
-       location: "University of Milan (Bicocca), Physics Department"
-       link: "https://www.google.it/maps/place/Dipartimento+di+Fisica+G.+Occhialini/@45.513263,9.208549,17z/data=!4m5!3m4!1s0x4786c74804afa1c1:0x4bc1905aefd36c27!8m2!3d45.5132593!4d9.2107377"
+       location: "University of Milan, Ca' Granda"
+       link: "https://goo.gl/maps/9VZ4X3ToWHzhBDjC6"
 
      - title: Workshop
        description: "The PLANCKS bring together for a few days in the same city the brightest minds among Physics students from all over the world: therefore, the organizing committee considers contact with excellent working and research environments such as those established in the Milan area to be very fruitful. Sponsors will have the opportunity to introduce themselves and show to what extent physics falls within the most diverse fields. A moment of workshops like this allows students to get in touch with the world of work, discovering career possibilities that are often unknown."
-       time: "15:30/16:30"
-       location: "University of Milan (Bicocca), Physics Department"
-       link: "https://www.google.it/maps/place/Dipartimento+di+Fisica+G.+Occhialini/@45.513263,9.208549,17z/data=!4m5!3m4!1s0x4786c74804afa1c1:0x4bc1905aefd36c27!8m2!3d45.5132593!4d9.2107377"
-
-
-
+       time: "16:00/17:30"
+       location: "University of Milan, Ca' Granda"
+       link: "https://goo.gl/maps/9VZ4X3ToWHzhBDjC6"
        
      - title: Dinner
        description: "As you walk towards the banquet, listen: beyond the chatter, you will hear the first melodies echoing in the courtyard. It will be a first taste of what you will hear."
-       time: "19:00/20:00"
+       time: "18:45/20:00"
        location: "Milan Conservatory"
        link: "https://goo.gl/maps/aPFG6weN1s7PrWRx7"
 
@@ -96,14 +93,13 @@ schedule:
    date: Sunday, 14<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: "Give a man a fish and you feed him for a day. Teach him to fish and you will feed him for life. Give a man breakfast, and you’ll make him happy"
+       description: "Give a man a fish and you feed him for a day. Teach him to fish and you will feed him for life. Give a man breakfast, and you’ll make him happy."
        time: "07:30/08:30"
        location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
      - title: Competition
        description: "Everything is beautiful, Milan is a wonderful city, the food is delicious and the people are very nice, but this is the moment when history is made. Who will be the winner of the tenth edition of PLANCKS? Let the challenge begin.
-Obviously, the observers will not sit idly by. The organizing committee has a perfect plan ready for them.
-"
+Obviously, the observers will not sit idly by. The organizing committee has a perfect plan ready for them."
        time: "09:00/13:30"
        location: "University of Milan, Physics Department"
        link: "https://www.google.it/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4765075,9.2292774,17z/data=!4m5!3m4!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825"
@@ -111,14 +107,14 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
      - title: Lunch
        description: "Wasn't it written above that the observers would not be idle? Lunch is served, buon appetito!"
        time: "13:30/14:30"
-       location: 
-       link: ""
+       location: St. Pius X Parrish
+       link: "https://goo.gl/maps/garXVukyS7c8fdVP7"
 
      - title: City Games
        description: "Do you know of a more enjoyable way to visit a new city? Milano awaits you."
        time: "14:30/18:30"
-       location: 
-       link: ""
+       location: Outdoor
+       link: "https://goo.gl/maps/p18h64aLM6dL3tzD8"
 
      - title: Dinner
        description: "One of the most exclusive places in Milan, with many new friends and good Italian food. That's why they call it “la dolce vita”."
@@ -130,45 +126,45 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
    date: Monday, 15<span class="super">th</span>
    activities:
      - title: Breakfast
-       description: "You can tell how something will go by how it begins"
+       description: "You can tell how something will go by how it begins."
        time: "07:30/08:30"
        location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
-     - title: Poster Session
-       description: "Each of you has something important to say about physics, so why not tell it with a poster?"
-       time: "09:00/10:00"
+     - title: Guest Lecture (C. Pasquero)
+       description: "The problem with guest lectures is that they are never enough. One leads to another. Follow our Instagram page to discover more."
+       time: "09:00/10:15"
        location: "IBM Studios Milano"
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
-     - title: Guest Lecture
-       description: "There are a few certain things in life, but one sure thing is that there will be a guest lecture on astrophysics. You could remain astonished discovering the lecturer. Follow our Instagram page to discover more."
-       time: "10:15/11:30"
+     - title: Guest Lecture (D. Queloz)
+       description: "     There are a few certain things in life, but one sure thing is that there will be a guest lecture on astrophysics. You could remain astonished discovering the lecturer. Follow our Instagram page to discover more."
+       time: "10:30/11:45"
        location: "IBM Studios Milano"
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Coffee Break
        description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a snack. And don't forget to make new friends and share what you have been loving the most about the event."
-       time: "11:30/12:00"
+       time: "11:45/12:15"
        location: "IBM Studios Milano"
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
-     - title: Guest Lecture
-       description: "The problem with guest lectures is that they are never enough. One leads to another. Follow our Instagram page to discover more."
-       time: "12:00/13:15"
+     - title: Poster Session
+       description: "Each of you has something important to say about physics, so why not tell it with a poster?"
+       time: "12:15/13:15"
        location: "IBM Studios Milano"
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Packed Lunch
        description: "A trip isn't a real trip without a packed lunch."
-       time: "13:15/14:30"
+       time: "13:15/14:15"
        location: 
        link: ""
        
      - title: Laboratory Visits
        description: "If you've come this far, it's not just because you want to have fun visiting Milan. That's why we will take you to the city's research laboratories of excellence, ranging from the university ones, like LASA and Bicocca, to the private ones, such as IBMstudios, not to mention the National Institute of Nuclear Physics and the oncology institute IFOM. And it doesn't end there..."
        time: "15:00/18:00"
-       location: 
-       link: ""
+       location: Various laboratories
+       link: "/laboratories"
 
      - title: Social Dinner
        description: "It's what happens tonight that will remain in your heart. Just choose the right people to spend it with."
@@ -190,34 +186,38 @@ Obviously, the observers will not sit idly by. The organizing committee has a pe
        time: "07:30/08:30"
        location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 
+     - title: "IBM Presentation"
+       description: ""
+       time: "09:00/09:30"
+       location: IBM Studios Milano
+       link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
+       
      - title: Solution Explanation
        description: "“The proof is trivial and is left as an exercise for the reader”? Not this time. "
-       time: "09:00/10:00"
+       time: "09:30/10:30"
        location: IBM Studios Milano
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Coffee Break
        description: "Don't drink coffee? Skip this section, then. I'm joking, of course! If you don't want your beloved brain to abandon you in the middle of a guest lecture, take the opportunity to have a snack. And don't forget to make new friends and share what you have been loving the most about the event."
-       time: "10:00/10:30"
+       time: "10:30/11:00"
        location: IBM Studios Milano
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Guest Lecture
        description: "May, 16th, is the international day of light. Who knows if there will be a bright presentation? Follow our Instagram page to discover more."
-       time: "10:30/11:45"
+       time: "11:00/12:15"
        location: IBM Studios Milano
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Closing Ceremony
        description: "It is time to say goodbye, but in the heart, it is clear that this event has changed us forever. There are those who will emerge triumphant and those defeated, but certainly, everyone will leave happy, with many new friends and many new stories to tell."
-       time: "12:15/13:30"
+       time: "12:45/14:00"
        location: IBM Studios Milano
        link: "https://goo.gl/maps/mTzp3DNuJ5GiJWN27"
 
      - title: Check-out
        description: ""
-       time: "13:30/15:00"
-
-       location: 
-       link: ""
+       time: "14:00/15:00"
+       location: <a href="https://www.google.it/maps/place/Ostelzzz/@45.4775614,9.2101122,17z/data=!3m1!4b1!4m8!3m7!1s0x4786c762c8e488f9:0x35d2ccacc531ce8b!5m2!4m1!1i2!8m2!3d45.4775614!4d9.2101122">Ostelzzz </a>/<a href="https://www.google.it/maps/place/MEININGER/@45.4863366,9.2387289,17z/data=!3m2!4b1!5s0x4786c6561477f1fb:0xcfe4a04ce1b06139!4m8!3m7!1s0x4786c713ce25bbef:0x57d978d2eb31daba!5m2!4m1!1i2!8m2!3d45.4863366!4d9.2387289"> Meininger</a>
 

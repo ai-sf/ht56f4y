@@ -1495,7 +1495,7 @@ h1.area-title{
 .location-cards{
   columns: 1;
   column-gap: 0rem;
-  margin-top: 2rem;
+  margin-top: 0.5rem;
 
   @media #{$large-and-up}{
     columns: 1;
@@ -1519,6 +1519,7 @@ h1.area-title{
             width: 10rem;
             height: 10rem;
             border-radius: 50%;
+            object-fit: cover;
       }
     }
 

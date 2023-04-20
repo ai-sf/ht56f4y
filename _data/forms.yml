@@ -269,14 +269,14 @@ details:
         required: true
     - row:
       - id: name_alphabet
-        size: s15 m8
-        label: "Name in your alphabet"
+        size: s15 m7
+        label: "Nickname (how should we call you?) in your alphabet"
         type: text
         name: entry.1592715204
         required: false
       - id: name_phonetic
-        size: s15 m7
-        label: "Name in phonetic alphabet"
+        size: s15 m8
+        label: "Nickname (how should we call you?) in phonetic alphabet"
         type: text
         name: entry.463212478
         required: false

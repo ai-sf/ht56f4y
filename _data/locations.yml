@@ -3,10 +3,10 @@ sections:
  - title: Departments
    places:
    
-   - name: "Physics Department \"Aldo Pontremoli\" - Università degli Studi di Milano"
+   - name: "Università degli Studi di Milano - Physics Department \"Aldo Pontremoli\""
      address: "Via Celoria 16, Milano" 
      link: "https://www.google.com/maps/place/uniMI+%E2%80%A2+Dipartimento+di+Fisica/@45.4766386,9.230081,17.58z/data=!4m15!1m8!3m7!1s0x4786c6f5003585d1:0x91edc21820e19f64!2sVia+Giovanni+Celoria,+16,+20133+Milano+MI!3b1!8m2!3d45.4765077!4d9.230825!16s%2Fg%2F11c1_32fvs!3m5!1s0x4786c6f44476e85f:0x9118846f43190d5e!8m2!3d45.4765077!4d9.230825!16s%2Fg%2F1hhkczltw"
-     image: "dip_fisica.jpg"
+     image: "dip_fisica.png"
      description: "The Physics Department of the University of Milan owes its name to Aldo Pontremoli, a commendable Italian physicist, founder of the Physics Faculty of the University of Milan and who during the famous and tragic polar expedition of the airship Italia.
 
 The Department is home to research activities in various sectors of fundamental and applied physics such as Astrophysics, Theoretical Physics, Nanotechnologies, Optics, Particle Physics, Physics of the Nucleus, Condensed Matter and Plasmas, Accelerator Physics, Physics of Complex Systems, Physics of the Environment, Cultural Heritage and Medical Physics.
@@ -30,6 +30,18 @@ In the sixteenth century, thanks to the noble Trivulzio and Landriani families, 
 In 1576, S. Carlo redeemed the commendam from the Landriani for 13,000 scudi and entrusted the church and convent to the Theatinian clerics. The order of the Theatines was suppressed in 1798 by Napoleon: the convent first became a military warehouse and after a year, during the Austro-Russian occupation, a police office was set up with prisons to lock up those Milanese who, to be considered republicans, were caught in the streets of Milan with a slipknot launched by the Russians while on horseback. After the occupation, the prison remained, known as the Political Correctional Judgement.
 In 1860 he was ennobled in Regia Magistrates Court, a function he held until the 1830s.
 In 1935 the building was repurchased by the Ambrosian Church at the behest of Cardinal Ildefonso Schuster and since then it has housed the headquarters of numerous lay associations."
+
+   - name: "Università degli Studi di Milano - Ca' Granda"
+     address: "Via Festa del Perdono 7, Milano"
+     link: "https://goo.gl/maps/AoWcYN8BfhdHvCfc8"
+     image: "ca_granda.jpg"
+     description: "Ca' Granda was founded by the will of Francesco Sforza and his wife Bianca Maria Visconti who, as a sign of gratitude to God for their conquest of the Duchy, wished to build a \"Spedale di Poveri\" (hospital for the poor).
+Begun in 1456, construction continued for more than 300 years thanks to  legacies and donations from Milanese citizens. The Festa del Perdono (Festival of Forgiveness), a sort of Jubilee during which indulgences were dispensed by special concession of the Holy See, was celebrated every two years on March 25, the Feast of the Annunciation to the Virgin Mary, the hospital's patron saint.
+The project was entrusted to Antonio Averlino, known as Filarete, and was subsequently completed by architects Solari, Amadeo and Pessina.
+The floor plan proposed by Filarete was a rectangle comprising ten identical squares, among which the Church was to occupy a central position. The lateral portions, with a cruciform plan, were reserved for patients.
+The entire complex - for centuries considered, in Europe as in Italy, a fine example of advanced hospital architecture -  was surrounded by the waters of the Naviglio (canal) that ran along present-day Via Francesco Sforza and widened in the present-day streets named Via Laghetto and Via Pantano.
+Anglo-American air raids in 1943 almost completely destroyed the building, and at the end of the Second World War it was handed over to the University of Milan. In 1958 it became the main seat of the University.
+Restoration and renovation works, begun in 1951, were entrusted to a team of technicians - among which numbered architects Ambrogio Annoni, Piero Portaluppi and Liliana Grassi - who created a successful blend of ancient and modern and made every effort to recover the original materials. Liliana Grassi, in particular, was largely responsible for restoration of the most ancient portion of the 15th century \"Crociera\" (the Crossing)."
 
  - title: Special Locations
    places:

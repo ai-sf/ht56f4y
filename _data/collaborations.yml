@@ -80,10 +80,10 @@ areas:
      url: "https://www.europeanoptics.org/"
      logo: "eos.png"
      height: 9rem
-#   - name: "Istituto Lombardo Accademia di Scienze e Lettere"
-#     height: 10rem
-#     url: "https://www.istitutolombardo.it/"
-#     logo: "istituto_lombardo_3.png"
+   - name: "Istituto Lombardo Accademia di Scienze e Lettere"
+     height: 9rem
+     url: "https://www.istitutolombardo.it/"
+     logo: "istituto_lombardo_2.png"
    - name: "Istituto Nazionale di Astrofisica"
      url: "http://www.inaf.it/it"
      logo: "inaf.png"
