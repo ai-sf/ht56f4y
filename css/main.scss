@@ -1389,18 +1389,40 @@ h1.area-title{
   }
 }
 
+h2.area-title{
+  color: $on-primary-container;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+  &:not(:first-of-type){
+    margin-top: 5rem;
+  }
+  &:first-of-type{
+    margin-top: 3rem;
+  }
+}
+
 //Sponsors
 
 .sponsor-cards{
-  columns: 3;
-  column-gap: 0rem;
-  margin-top: 2rem;
-  display: block;
-  
-  @media #{$large-and-up}{
-    columns: 3;
-  }
 
+  .sponsor-card-row
+  {
+    columns: var(--cols);
+    @media #{$large-and-up}{
+    columns: var(--cols);
+  }
+    column-gap: 0.1rem;
+    display: block;
+    margin: 1rem 1rem 1rem 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 97%;
+    height: 90%;
+    position: relative;
+    align-items: center;
+ }
+ 
   .card{
     @extend .z-depth-2;
     margin: 0rem 1rem 2rem 1rem;

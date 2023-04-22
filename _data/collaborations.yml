@@ -1,94 +1,142 @@
 areas:
  - title: "Sponsorships"
- - sponsors:
-   - name: "SAES"
-     url: "https://www.saesgetters.com/it"
-     logo: "saes.jpg"
-     height: 8rem
-   - name: "Istituto Nazionale di Ricerca Metrologica"
-     url: "https://www.inrim.it/en"
-     logo: "inrim.png"
-     height: 5.5rem
-   - name: "Confindustria Lombardia"
-     url: "https://confindustria.lombardia.it/"
-     logo: confindustria.jpg
-     height: 7.5rem
-   - name: "Centro Elettrotecnico Sperimentale Italiano" 
-     url: "https://www.cesi.it/"
-     logo: "cesi.png"
-     height: 6rem
-   - name: "ABB"
-     url: "https://new.abb.com/it"
-     logo: "abb.png"
-     height: 7rem
-   - name: "Fondazione Bracco"
-     url: "https://www.fondazionebracco.com/"
-     logo: "bracco.png"
-     height: 5rem
-#   - name: "A2A"
-#     url: "https://www.gruppoa2a.it/it/home"
-#     logo: "a2a.png"
-#     height: 8rem
+   sections:
+   - subtitle: "Main sponsors"
+     rows:
+     - columns: 2
+       sponsors:
+       - name: "SAES"
+         url: "https://www.saesgetters.com/it"
+         logo: "saes.jpg"
+         height: 8rem
+       - name: "Confindustria Lombardia"
+         url: "https://confindustria.lombardia.it/"
+         logo: confindustria.jpg
+         height: 8rem  
+   - subtitle: "Sponsors"
+     rows:
+#     - columns: 1
+#       sponsors:
+#       - name: "A2A"
+#         url: "https://www.gruppoa2a.it/it/home"
+#         logo: "a2a.png"
+#         height: 8rem
+     - columns: 1 #Set equal to 2 when Huawei is available
+       sponsors:
+       - name: "Fondazione Cariplo"
+         logo: "cariplo_transparent.png"
+         url: "https://www.fondazionecariplo.it/it/index.html"
+         height: 9rem
+#       - name: "Huawei"
+#         logo: ""
+#         url: "https://consumer.huawei.com/it/"
+#         height: 9rem
+     - columns: 2
+       sponsors:
+       - name: "Istituto Nazionale di Ricerca Metrologica"
+         url: "https://www.inrim.it/en"
+         logo: "inrim.png"
+         height: 7rem
+       - name: "Centro Elettrotecnico Sperimentale Italiano" 
+         url: "https://www.cesi.it/"
+         logo: "cesi.png"
+         height: 5.8rem
+     - columns: 2
+       sponsors:
+       - name: "Fondazione Bracco"
+         url: "https://www.fondazionebracco.com/"
+         logo: "bracco.png"
+         height: 5rem
+       - name: "ABB"
+         url: "https://new.abb.com/it"
+         logo: "abb.png"
+         height: 5rem
  - title: "Partners"
-   sponsors:
-   - logo: "ibm_transparent.png"
-     height: 6.5rem
- - title: "Collaborations"
-   sponsors:
-   - name: "International Union of Pure and Applied Physics"
-     url: "https://iupap.org/"
-     logo: "iupap.png"   
-     height: 7.5rem
-   - name: "Società Italiana di Fisica"
-     url: "https://www.sif.it/"
-     logo: "sif.png"
-   - name: "Società Italiana di Ottica e Fotonica"
-     url: "https://www.siof-ottica.it"
-     logo: "siof.png"
-   - name: "Fondazione Cariplo"
-     logo: "cariplo_transparent.png"
-     url: "https://www.fondazionecariplo.it/it/index.html"
-     height: 9rem
-   - name: "International Association of Geomagnetism and Aeronomy"
-     url: "https://iaga-aiga.org/"
-     logo: "iaga.jpg"
-     height: 7.5rem
-#   - name: "International Centre for Theoretical Physics"
-#     url: "https://www.ictp.it/"
-#     logo: "ictp.jpg"
-#     height: 4.5rem
+   sections:
+   - rows:
+     - columns: 1
+       sponsors:
+       - logo: "ibm_transparent.png"
+         height: 7.5rem
+     - columns: 1
+       sponsors:
+       - name: "International Union of Pure and Applied Physics"
+         url: "https://iupap.org/"
+         logo: "iupap.png"   
+         height: 7.5rem
+     - columns: 1 #Set equal to 2 when INFN is available
+       sponsors:
+#       - name: "Istituto Nazionale di Fisica Nucleare"
+#         url: "https://home.infn.it/it/"
+#         logo: ""
+#         height: 6.5rem 
+       - name: "International Centre for Theoretical Physics"
+         url: "https://www.ictp.it/"
+         logo: "ictp.jpg"
+         height: 6rem      
+     - columns: 1 #Set equal to 2 when EOF is available
+       sponsors:
+       - name: "Società Italiana di Fisica"
+         url: "https://www.sif.it/"
+         logo: "sif.png"     
+#       - name: "European Physics Society"
+#         url: "https://www.eps.org/"
+#         logo: "" 
+     - columns: 2
+       sponsors:
+       - name: "Società Italiana di Ottica e Fotonica"
+         url: "https://www.siof-ottica.it"
+         logo: "siof.png"
+         height: 9.5rem
+       - name: "International Association of Geomagnetism and Aeronomy"
+         url: "https://iaga-aiga.org/"
+         logo: "iaga.jpg"
+         height: 8rem
+
  - title: "Techical sponsorships"
-   sponsors:
-   - name: "101CAFFE'"
-     url: "https://www.101caffe.it/"
-     logo: "101caffe.jpg"
-   - name: "Abaribi"
-     url: "https://abaribi.it/"
-     logo: "abaribi.jpg"
-     height: 7.6rem
+   sections:
+   - rows:
+     - columns: 2
+       sponsors:
+       - name: "101CAFFE'"
+         url: "https://www.101caffe.it/"
+         logo: "101caffe.jpg"
+         height: 9rem
+       - name: "Abaribi"
+         url: "https://abaribi.it/"
+         logo: "abaribi.jpg"
+         height: 9rem
+     
  - title: "Patronages"
-   sponsors:
-   - name: "Università degli Studi di Milano"
-     url: "https://www.unimi.it/en"
-     logo: "unimi.jpg"
-     height: 6.6rem
-   - name: "Comune di Milano"
-     url: "https://www.comune.milano.it/"
-     logo: "milano.jpg"
-     height: 12.1rem
-   - name: "Associazione per l'Insegnamento della Fisica"
-     url: "https://www.aif.it/"
-     logo: "aif.png"
-     height: 6.8rem
-   - name: "European Optical Society"
-     url: "https://www.europeanoptics.org/"
-     logo: "eos.png"
-     height: 9rem
-   - name: "Istituto Lombardo Accademia di Scienze e Lettere"
-     height: 9rem
-     url: "https://www.istitutolombardo.it/"
-     logo: "istituto_lombardo_2.png"
-   - name: "Istituto Nazionale di Astrofisica"
-     url: "http://www.inaf.it/it"
-     logo: "inaf.png"
-     height: 10.5rem
+   sections:
+   - rows:
+     - columns: 2
+       sponsors:
+       - name: "Università degli Studi di Milano"
+         url: "https://www.unimi.it/en"
+         logo: "unimi.jpg"
+         height: 9rem
+       - name: "Comune di Milano"
+         url: "https://www.comune.milano.it/"
+         logo: "milano.jpg"
+         height: 9rem
+     - columns: 2
+       sponsors:
+       - name: "Istituto Nazionale di Astrofisica"
+         url: "http://www.inaf.it/it"
+         logo: "inaf.png"
+         height: 9rem     
+       - name: "European Optical Society"
+         url: "https://www.europeanoptics.org/"
+         logo: "eos.png"
+         height: 9rem  
+     - columns: 2
+       sponsors:
+       - name: "Istituto Lombardo Accademia di Scienze e Lettere"
+         height: 9rem
+         url: "https://www.istitutolombardo.it/"
+         logo: "istituto_lombardo_2.png"
+       - name: "Associazione per l'Insegnamento della Fisica"
+         url: "https://www.aif.it/"
+         logo: "aif.png"
+         height: 9rem
