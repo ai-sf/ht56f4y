@@ -1,22 +1,22 @@
 areas:
  - title: "Sponsorships"
-   sponsors:
-#   - name: "SAES"
-#     url: "https://www.saesgetters.com/it"
-#     logo: "saes.jpg"
-#     height: 8rem
+ - sponsors:
+   - name: "SAES"
+     url: "https://www.saesgetters.com/it"
+     logo: "saes.jpg"
+     height: 8rem
    - name: "Istituto Nazionale di Ricerca Metrologica"
      url: "https://www.inrim.it/en"
      logo: "inrim.png"
      height: 5.5rem
+   - name: "Confindustria Lombardia"
+     url: "https://confindustria.lombardia.it/"
+     logo: confindustria.jpg
+     height: 7.5rem
    - name: "Centro Elettrotecnico Sperimentale Italiano" 
      url: "https://www.cesi.it/"
      logo: "cesi.png"
      height: 6rem
-   - name: "Confindustria Lombardia"
-     url: "https://confindustria.lombardia.it/"
-     logo: confindustria.jpg
-     height: 8rem
    - name: "ABB"
      url: "https://new.abb.com/it"
      logo: "abb.png"
@@ -25,6 +25,10 @@ areas:
      url: "https://www.fondazionebracco.com/"
      logo: "bracco.png"
      height: 5rem
+#   - name: "A2A"
+#     url: "https://www.gruppoa2a.it/it/home"
+#     logo: "a2a.png"
+#     height: 8rem
  - title: "Partners"
    sponsors:
    - logo: "ibm_transparent.png"

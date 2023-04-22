@@ -257,7 +257,7 @@ partecipants:
 details:
     id: details
     action: "https://docs.google.com/forms/u/1/d/e/1FAIpQLSez2dEa3hAtddeCjA_AcN4KXlIJ5IFjVkyKctU2EjlV6ndNfQ/formResponse"
-    submit: Submit
+    submit: Next page
     fields:
     - row:
       - section_title: "General information"
