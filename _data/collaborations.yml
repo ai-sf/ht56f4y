@@ -79,7 +79,7 @@ areas:
        - name: "Società Italiana di Fisica"
          url: "https://www.sif.it/"
          logo: "sif.png"     
-       - name: "European Physics Society"
+       - name: "European Physical Society"
          url: "https://www.eps.org/"
          logo: "eps.png" 
      - columns: 2
