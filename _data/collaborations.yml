@@ -74,14 +74,14 @@ areas:
          url: "https://www.ictp.it/"
          logo: "ictp.jpg"
          height: 6rem      
-     - columns: 1 #Set equal to 2 when EOF is available
+     - columns: 2
        sponsors:
        - name: "Società Italiana di Fisica"
          url: "https://www.sif.it/"
          logo: "sif.png"     
-#       - name: "European Physics Society"
-#         url: "https://www.eps.org/"
-#         logo: "" 
+       - name: "European Physics Society"
+         url: "https://www.eps.org/"
+         logo: "eps.png" 
      - columns: 2
        sponsors:
        - name: "Società Italiana di Ottica e Fotonica"
