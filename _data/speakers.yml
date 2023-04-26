@@ -84,7 +84,7 @@ solve some of the most complex scientific and technological problems in healthca
 consumer goods and electronics. He was a member of the winning team recognized with the
 prestigious Gordon Bell Prize in 2013 and 2015. Currently, his research interests include
 accelerating the rate of discovery with AI and Quantum, as well as Big Data and novel compute
-paradigms - including neuromorphic computing.Dr. Curioni received his undergraduate degree in
+paradigms - including neuromorphic computing. Dr. Curioni received his undergraduate degree in
 Theoretical Chemistry and his PhD from Scuola Normale Superiore, Pisa, Italy. He started at
 IBM Research – Zurich as a PhD student in 1993 before officially joining as a research staff
 member in 1998. Since then, he has had several research and manager roles, including as the
@@ -101,7 +101,7 @@ neuromorphic computing. Dr. Curioni received his PhD in Theoretical Chemistry fr
 Normale Superiore, Pisa, Italy. He is a member of the Swiss Academy of Technical Sciences."
    img: curioni.jpg
    uni: IBM Research Vice-president, Europe
-   locked: true
+   locked: false
    
 locked:
   name: Locked
