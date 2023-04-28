@@ -15,12 +15,12 @@ areas:
          height: 8rem  
    - subtitle: "Sponsors"
      rows:
-#     - columns: 1
-#       sponsors:
-#       - name: "A2A"
-#         url: "https://www.gruppoa2a.it/it/home"
-#         logo: "a2a.png"
-#         height: 8rem
+     - columns: 1
+       sponsors:
+       - name: "A2A"
+         url: "https://www.gruppoa2a.it/it/home"
+         logo: "a2a.png"
+         height: 8rem
      - columns: 2
        sponsors:
        - name: "Fondazione Cariplo"

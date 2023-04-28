@@ -1549,7 +1549,7 @@ h2.area-title{
 
         text-align: left;
         font-family:"Montserrat";
-        margin-bottom: 2rem;
+        margin-bottom: 0.2rem;
         color: #fff;
         padding: 4px 15px;
         padding: 3rem 0 0rem -3rem;
@@ -1596,6 +1596,7 @@ h2.area-title{
     }
     
     .card-content{
+        margin-bottom: 2rem;
         background-color: $primary-container  !important;
         color: $on-primary-container;
 	p{

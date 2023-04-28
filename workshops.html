@@ -24,9 +24,11 @@ title: Workshops
         	</div>
         </div>
 
+	{% if lab.description %}
         <div class="card-content container text-section">
         	<p> {{lab.description}} </p>
 	</div>
+	{% endif %}
 </div>
 {% endfor %}
 </div>
