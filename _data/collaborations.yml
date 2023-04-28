@@ -21,16 +21,16 @@ areas:
 #         url: "https://www.gruppoa2a.it/it/home"
 #         logo: "a2a.png"
 #         height: 8rem
-     - columns: 1 #Set equal to 2 when Huawei is available
+     - columns: 2
        sponsors:
        - name: "Fondazione Cariplo"
          logo: "cariplo_transparent.png"
          url: "https://www.fondazionecariplo.it/it/index.html"
-         height: 9rem
-#       - name: "Huawei"
-#         logo: ""
-#         url: "https://consumer.huawei.com/it/"
-#         height: 9rem
+         height: 10rem
+       - name: "Huawei"
+         logo: "huawei.png"
+         url: "https://www.huawei.com/en/corporate-information"
+         height: 10rem
      - columns: 2
        sponsors:
        - name: "Istituto Nazionale di Ricerca Metrologica"
