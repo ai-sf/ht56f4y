@@ -120,6 +120,11 @@ areas:
          url: "https://www.comune.milano.it/"
          logo: "milano.jpg"
          height: 9rem
+     - columns: 1
+       sponsors:
+       - name: "Conservatorio di Milano"
+         url: "https://www.consmilano.it/"
+         logo: "conservatorio.jpg"
      - columns: 2
        sponsors:
        - name: "Istituto Nazionale di Astrofisica"
