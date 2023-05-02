@@ -89,20 +89,19 @@ Theoretical Chemistry and his PhD from Scuola Normale Superiore, Pisa, Italy. He
 IBM Research – Zurich as a PhD student in 1993 before officially joining as a research staff
 member in 1998. Since then, he has had several research and manager roles, including as the
 founding manager of the Cognitive Computing and Computational Sciences department. He is a
-member of the Swiss Academy of Technical SciencesVery short bio:
-Dr. Alessandro Curioni
-IBM Fellow, Vice President Europe &amp; Africa, IBM Research and Director, IBM
-Research Europe - ZurichDr. Alessandro Curioni is an IBM Fellow, Vice President of IBM
-Europe and Africa and Director of the IBM Research Lab in Zurich, Switzerland. He is
-responsible for IBM corporate research in Europe and leads global research in Accelerated
-Discovery and Security. Currently, his research interests include accelerating the rate of
-discovery with AI and Quantum, as well as Big Data and novel compute paradigms - including
-neuromorphic computing. Dr. Curioni received his PhD in Theoretical Chemistry from Scuola
-Normale Superiore, Pisa, Italy. He is a member of the Swiss Academy of Technical Sciences."
+member of the Swiss Academy of Technical Sciences."
    img: curioni.jpg
    uni: IBM Research Vice-president, Europe
    locked: false
-   
+
+ - name: Tiziano Camporesi
+#  date: Friday, 12<span class="super">th</span>
+#  topic: Is quantum mechanics correct?
+   biography: "Dr. Tiziano Camporesi graduated from the University of Bologna in 1981 with a thesis based on the NA4 muon scattering experiment done at the CERN Super Proton Synchrotron. He was a Postdoc at SLAC, Stanford University from 1984 to 1986 working on the MAC experiment at the PEP electron positron collider. He came back to Europe as CERN fellow in 1986 and remained at CERN as Staff member to this day. At CERN he was first a member of the DELPHI experiment at the LEP electron positron collider: in DELPHI he eventually became the Spokesperson in the year 1999. In 2002 he joined the CMS Experiment which started taking data at the Large Hadron Collider in 2009. In CMS he was responsible of two projects ( Forward Hadron Calorimeter and Electromagnetic Calorimeter) and became responsible of the overall Commissioning and running of the Experiment between 2007 and 2010. In 2011 he became deputy Spokesperson and was part of the CMS management team which discovered the Higgs Boson in 2012. Between 2014 and 2016 he was elected Spokesperson of the Experiment. From 2017 to 2022 he was the team leader of the CERN team involved in CMS. Since 2018 he is also Adjunct Professor at Boston University and since 2021 he is honorary professor at the Georgian Technical University."
+   img: camporesi.jpg
+   uni: CMS Experiment, CERN
+   locked: false
+      
 locked:
   name: Locked
 #  date: "???"
