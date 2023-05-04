@@ -555,7 +555,6 @@ details:
           - "Andrea Rocchetto"
           - "INRIM"
           - "OPTICA"
-          - "Intesa San Paolo"
         - id: workshop_second_choice
           label: "Your Second Choice"
           size: s15 m6
@@ -566,7 +565,6 @@ details:
           - "Andrea Rocchetto"
           - "INRIM"
           - "OPTICA"
-          - "Intesa San Paolo"
         - id: workshop_third_choice
           label: "Your Third Choice"
           size: s15 m6
@@ -577,7 +575,6 @@ details:
           - "Andrea Rocchetto"
           - "INRIM"
           - "OPTICA"
-          - "Intesa San Paolo"  
     - row:
       - id: diet
         type: select
