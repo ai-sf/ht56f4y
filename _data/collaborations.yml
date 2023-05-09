@@ -41,15 +41,21 @@ areas:
          url: "https://www.cesi.it/"
          logo: "cesi.png"
          height: 5.8rem
+     - columns: 1
+       sponsors:
+       - name: "ABB"
+         url: "https://new.abb.com/it"
+         logo: "abb.png"
+         height: 5rem
      - columns: 2
        sponsors:
        - name: "Fondazione Bracco"
          url: "https://www.fondazionebracco.com/"
          logo: "bracco.png"
          height: 5rem
-       - name: "ABB"
-         url: "https://new.abb.com/it"
-         logo: "abb.png"
+       - name: "Natì"
+         url: "https://www.nati.it/"
+         logo: "nati.png"
          height: 5rem
  - title: "Partners"
    sections:
@@ -64,12 +70,12 @@ areas:
          url: "https://iupap.org/"
          logo: "iupap.png"   
          height: 7.5rem
-     - columns: 1 #Set equal to 2 when INFN is available
+     - columns: 2
        sponsors:
-#       - name: "Istituto Nazionale di Fisica Nucleare"
-#         url: "https://home.infn.it/it/"
-#         logo: ""
-#         height: 6.5rem 
+       - name: "Istituto Nazionale di Fisica Nucleare"
+         url: "https://home.infn.it/it/"
+         logo: "infn.jpg"
+         height: 7.5rem 
        - name: "International Centre for Theoretical Physics"
          url: "https://www.ictp.it/"
          logo: "ictp.jpg"
