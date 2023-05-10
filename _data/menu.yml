@@ -12,9 +12,9 @@
   - text: Speakers
     url: "/speakers"
     icon: mic_external_on
-  - text: Road to Milan
-    url: "/preliminaries"
-    icon: flight
+#  - text: Road to Milan
+#    url: "/preliminaries"
+#    icon: flight
   - text: Laboratories
     url: "/laboratories"
     icon: science
@@ -30,6 +30,9 @@
   - text: Supporters
     url: "/collaborations"
     icon: handshake
+  - text: Policy
+    url: "/policy"
+    icon: policy
 #  - text: "Confirmation"
 #    url: "/confirmation"
 #    icon: "border_color"

@@ -668,8 +668,17 @@ nav.sidenav{
     text-align: center;
     font-weight: 600;
     font-size: clamp(2rem, 7vw, 3rem);
-
   }
+  
+  h3{
+    color: $on-primary-container;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    text-align: left;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 7vw, 2rem);
+  }
+  
   p{
     font-size: clamp(1.2rem, 3vw, 1.5rem);
     line-height: clamp(2rem, 5vw, 2.4rem);
