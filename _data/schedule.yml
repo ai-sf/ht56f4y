@@ -61,19 +61,19 @@ schedule:
 
      - title: Lunch
        description: ""
-       time: "13:15/14:00"
+       time: "13:15/14:30"
        location: University Canteen
        link: "https://goo.gl/maps/9VZ4X3ToWHzhBDjC6"
 
      - title: Student Session
        description: "Do you want to share your thesis or your important work? You will have 15 minutes at your disposal to intrigue your listener. And for everyone else: you will travel through the most disparate fields of physics in one of the most exclusive places in Milan."
-       time: "14:30/15:30"
+       time: "15:00/16:00"
        location: "University of Milan, Ca' Granda"
        link: "https://goo.gl/maps/9VZ4X3ToWHzhBDjC6"
 
      - title: Workshop
        description: "The PLANCKS bring together for a few days in the same city the brightest minds among Physics students from all over the world: therefore, the organizing committee considers contact with excellent working and research environments such as those established in the Milan area to be very fruitful. Sponsors will have the opportunity to introduce themselves and show to what extent physics falls within the most diverse fields. A moment of workshops like this allows students to get in touch with the world of work, discovering career possibilities that are often unknown."
-       time: "16:00/17:30"
+       time: "16:30/18:00"
        location: "University of Milan, Ca' Granda"
        link: "https://goo.gl/maps/9VZ4X3ToWHzhBDjC6"
        
