@@ -22,7 +22,7 @@
     url: "/workshops"
     icon: "business_center"
   - text: Solutions
-    url: "solutions"
+    url: "/solutions"
     icon: "task"
 #  - text: Definitive Confirmation
 #    url: "/last_form"
